@@ -1,0 +1,1492 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="robots" content="noarchive" /><title>
+	MidFirst Bank - Personal Checking
+</title><link rel="apple-touch-icon" href="/Images/Assets/MobileImages/AppleTouchLogo.gif" />
+	<link rel="stylesheet" type="text/css" href="/Include/Css/PageStyles.css" media="screen" />
+	<link rel="stylesheet" href="/Include/css/reset.css" media="screen" />
+	<link rel="stylesheet" href="/Include/css/print.css" media="print" />
+	<link rel="stylesheet" href="/Include/css/nav.css" media="screen" />
+	<link rel='stylesheet' href='/Include/css/interior.css' media='screen'/>
+	<link rel="stylesheet" href="/Include/css/photoFeature.css" media="screen" />
+    <script type="text/javascript" src="/Include/js/jquery.js"></script>
+    <script type="text/javascript" src="/Include/js/utils.js"></script>
+    <script type="text/javascript" src="/Include/js/PageCommon.js"></script>
+    <script type='text/javascript' src='/Include/js/NonMobileFunctions.js'></script><script src='https://www.google.com/jsapi' type='text/javascript'></script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-6288965-6");
+        } catch (err) {
+        }</script>
+    
+    <script type="text/javascript" language="javascript">
+    	var selectedProduct;
+    	var trackCloseAction = true;
+    	animatedcollapse.addDiv('signatureCallout', 'fade=1');
+    	animatedcollapse.addDiv('performanceCallout', 'fade=1');
+    	animatedcollapse.addDiv('performancePlusCallout', 'fade=1');
+    	animatedcollapse.addDiv('performance50Callout', 'fade=1');
+    	animatedcollapse.addDiv('freeCheckingCallout', 'fade=1');
+    	animatedcollapse.addDiv('universityCheckingCallout', 'fade=1');
+    	animatedcollapse.addDiv('eCheckingCallout', 'fade=1');
+    	animatedcollapse.addDiv('disclosures', 'fade=5');
+    	animatedcollapse.init();
+    	jQuery(document).ready(function () {
+    		jQuery('a.PCLD').click(function () {
+    			jQuery('#pcld_popup').dialog({
+    				modal: true,
+    				overlay: { opacity: 0.50, background: 'black' },
+    				width: 360,
+    				height: 200,
+    				minHeight: 200,
+    				resizable: false,
+    				draggable: false,
+    				autoOpen: false,
+    				title: 'Preferred Customer Loan Discount'
+    			});
+    			jQuery('#pcld_popup').dialog("open");
+    		});
+    		jQuery('#oac_message').dialog({
+    			modal: true,
+    			overlay: { opacity: 0.50, background: 'black' },
+    			width: 415,
+    			height: 200,
+    			minHeight: 200,
+    			resizable: false,
+    			draggable: false,
+    			autoOpen: false,
+    			title: 'Welcome to Online Account Creation',
+    			close: CancelOAC
+    		});
+
+    	});
+    	function expandAll() {
+    		TrackAction('Personal Checking', 'Expand All Details');
+    		animatedcollapse.show(['signatureCallout', 'performanceCallout', 'performancePlusCallout', 'performance50Callout', 'freeCheckingCallout', 'universityCheckingCallout', 'eCheckingCallout']);
+    		var element = $('a.toggle_show_hide');
+    		element.html('Hide details');
+    		element.toggleClass('toggle_hide');
+    		var expandAll = $('#expandAll');
+    		expandAll.removeAttr('href');
+    		var hideAll = $('#hideAll');
+    		hideAll.attr('href', 'javascript:hideAll()');
+    	}
+    	function hideAll() {
+    		TrackAction('Personal Checking', 'Hide All Details');
+    		animatedcollapse.hide(['signatureCallout', 'performanceCallout', 'performancePlusCallout', 'performance50Callout', 'freeCheckingCallout', 'universityCheckingCallout', 'eCheckingCallout']);
+    		var element = $('a.toggle_show_hide');
+    		element.html('Show details');
+    		element.toggleClass('toggle_hide');
+    		var hideAll = $('#hideAll');
+    		hideAll.removeAttr('href');
+    		var expandAll = $('#expandAll');
+    		expandAll.attr('href', 'javascript:expandAll()');
+    	}             
+    </script>
+<meta name="location" content="3" /><meta name="timeloaded" content="2:12 PM" /><link href="../App_Themes/MidFirst/ComboBox.MidFirst.css" type="text/css" rel="stylesheet" /><link href="/WebResource.axd?d=FDMzpVidF-iodsvRhOqlFjOGHPCTU3Fw6-kmHPkTNRJx8FSo8JKzgJrw07gwhYaoJdd7j9sr18KLVz8tV_QnYmh0wrVUGim7mHeu-nkfHefZdc5zGt25-t6ArihVom1vXHH5Oo4uFd7Z6cbCR9ekIyXYaqov_vzjQiegbt20tfkXkX2R0&amp;t=633985667640234343" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=D4MKJWidlVAXSNLgxesFqzr5zclbOonAPg00K7oZ729phINiB9KdVIIvTaoJM4AyFT6Ec1aYGGJVbXk17UjIIpBjStESX8wGB0BuY7SuN3Gy79kpuAbH7_o4Ne5yXa0WUnNjq9ndsDz49aRdZzN1-alpbEJvvOJzyhL5apIhiy_dkhEuSq1a0Q-ET_ebfR2M_teVXg2&amp;t=633985667640234343" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+<body>
+    <div id="container">
+        <form name="aspnetForm" method="post" action="Checking.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VSTATE" id="__VSTATE" value="H4sIAAAAAAAEAO29B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Iv7vX/M3/U1/3R/79N7+7v29/YP933T22/xa5/TPr/Nr/Zr076/3a/0Gv+lv82v9gl/nTf6u/XW//bgslm/TOi8/+7hpr8u8med5+3E6r/Pzzz6+e7aclutZfnfaNHeLZZvXRVWP6Y+P00U+KzJ6Z1rn+fLju0ezX+s3JKi/y6/x6758TJ8VqzZtr1f5Zx+31Mvdn84uM/n047Sppx7gn27uvqiWX1STosyfrZfTtqiWzfinm4+PHt+VNwjybySQfy8DmUHM23bVPLp79+rqanxRVRdlPp5WCwKYrYqPBzr3gf7aRIrf4Nf6rUGKX/8ni6aYlPnF7Nf6HX/T3/S3+XV+wa/37by4mLe/46+B5/f8vX/PX5N+/IJf5/f/XV8/+bX+oF9zNvu1fuffFK/9tqfLjN46/uns3eu3xfJVvpwRgZYXc2rxiaD86+zt7O7Ofrtf+9f9Bb//739SLdu6KptX+S9aF3X+smraJ9n07e+VX//+v/9v82v9uj8+bcudnd+N/t3d+d1ms/JlXjfVMiufZEsCfvE0X1RNr9GTdVMs86Z570a/6W/1ya/xa/26v9nLMs+aPD2ZV1WTj8fjX/fX2t6d3QqVTQD+H0b8jYN/AgAA" />
+<input type="hidden" name="__VIEWSTATE" id="
+__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=2v7KSmmF1MbRaoTTF4WZSixuSBVIPgNGdas-4ZHAnH_FCX_hHzAbd8JXeBwjUiPmvSwG9RPhDTtrvwG_VJ4L1XztsIc1&amp;t=634215439347311563" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=1aaIKZSBplEYNT1F678-D-ljHUsrZgTh2C-SUa7fHfKO5QjK0v2J5jCNtNuv6SYXQt7MlIXgQ8nhDwf0Xi-DFccQ7f-OWnblB2y9bjHXPV2rTiYoQ1fm0hu24-V3VjDyQPRc4epr2oLeve-VWJGIT_owB301&amp;t=fffffffffd92f9fa" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LQ3Z9-ix4sU7kfMLIq0ZkIDrLzUDL5QLn-8fq1wrrcrwJ3MLx127-1uQ2vCkJ4JjVjFO-KD8qvop5hE_BTzLTc9OvyEnrZt2CGq5UjNl3Ju5Dhc-G9Ur9ccwbUiHpDyy0nQUQxthS1xNgBTRRkXq83RNTJgWeJv0KY32v1qlhfPY9oeYTLwW7371xmBWk--eLieKW7kHVRpiA1jtk55ODMjar3zWl93NdpuJhm8iPsy80OSo9BlURpCCknp1oClN1fGd5IuhxBZss8w5YCOhHqnu6W95pqdIMBdWisGYLy2-8xDxrC5WdL7BZTLHDbaxCdYB6uLeq2GJVxjM5DoNQiONyncjHrWKQ1dHG-XsgnKCO9TNIUwVTJQgmJ3QU-fFZEQ8TkwYUGuT8uwXHovh-MHlo2mFI_ZY0obTeUYqSfy_vWYvb1icZR4x773Po9gnABDbwEOofrog23DPHSc-bSzTY4K0sxoqRKkoemKP-o7M8cn89BHZN_dWyor-lNHi1bZs4Sr-eMW7t7RX2fxUAml4ztotmeFa89OcBfwmxuzwsGGwN3VVYIJQ3sA5gxrsSdT7npbcbO663y57c9PwP5PkLJY1" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWHwL+raDpAgLE5ML0AgKLsM6YAgKYw8CoCwK/7JLhDgLVv4yxDwKR+KO6CgLkxrS+AQKL4tXGBALNhrTMBgLzpIumAgK1k6rRBQKOvInxDwLrgLiQAQKvk6SZCwK3/4euBQLG7K3yBgLeuuSrDQLm+ITwDQKrnNfFDwKixqidBwLG/qufDQLGsYqQBgKwgbWMCQKJ2vb6CwK4zYz4BQLb2uHgCgKi7e9KArLeibgEAqi07+YOAsWGjMEFiSfzsGhoIh8N5NUqttJu23Hpi4Y=" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$scriptManager', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ctl00$pnlOLBSystemAjaxPanel'], [], [], 90);
+//]]>
+</script>
+ 
+        <div id="header" class="clearfix">
+            <h1>
+                <a href="/Default.aspx" id="branding" onclick="TrackAction('Header Navigation', 'Logo');">
+                    MidFirst Bank</a><a href="/NoLink.aspx"><img src="/images/global/bg_blank.gif" alt="link" /></a></h1>
+            <ul id="nav_header">
+                <li class="nav_header_detail"><a href="/Default.aspx" onclick="TrackAction('Header Navigation', 'Home');"
+                    class="nav_header_link">Home</a></li>
+                <li class="nav_header_detail"><a href="javascript:void(0);" id="lnkLocateUs" class="nav_header_link">
+                    Locate Us</a></li>
+                <li class="nav_header_detail last">
+                    <a href="/InsideMidFirst/ContactUs.aspx" onclick="TrackAction('Header Navigation', 'Contact Us');" id="ctl00_lnkHeaderContact" class="nav_header_link">Contact Us</a>
+                </li>
+                <li class="nav_header_detail last">
+                    <div id="ctl00_pnlSearch" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_btnSearchSite')">
+	
+                        <p>
+                            <input name="ctl00$txtSearch" type="text" maxlength="60" id="ctl00_txtSearch" class="search" />
+                            <input type="submit" name="ctl00$btnSearchSite" value="Search" onclick="javascript:DoSiteSearch(); return false;" id="ctl00_btnSearchSite" class="submit" />
+                        </p>
+                    
+</div>
+                    <br />
+                </li>
+            </ul>
+        </div>
+        <div id="drop_shadow">
+            <div id="content_wrap" class="clearfix">
+                <ul class="sf-menu nav_main">
+                    <li><a href="" onclick="javascript:TrackAction('Nav Menu Click','Personal'); return false;">
+                        Personal</a>
+                        <ul>
+                            <li>
+                                <a href="/PersonalBanking/Checking.aspx" id="ctl00_lnkPersonalChecking">Checking</a>
+                            </li>
+                            <li>
+                                <a href="/PersonalBanking/Savings.aspx" id="ctl00_LocationSavings">Savings</a>
+                            </li>
+                            <li><a href="/PersonalBanking/CDIRAs.aspx">CDs and IRAs</a></li>
+                            <li><a href="/PersonalBanking/OnlineBanking.aspx">Online Banking</a></li>
+                            <li>
+                                <a href="/PersonalBanking/HomeEquityLoans.aspx" id="ctl00_lnkHomeEquity">Home Equity Loans</a>
+                            </li>
+                            <li><a href="/PersonalBanking/PersonalLoans.aspx">Other Personal Loans</a></li>
+                            <li>
+                                <a href="/PersonalBanking/MortgageLoans.aspx" id="ctl00_lnkMortgage">Mortgage Loans</a>
+                            </li>
+                            <li><a href="/MidFirstVisaCards/Default.aspx">MidFirst Visa<sup class="Above">&reg;</sup>
+                                Cards</a></li>
+                            <li><a href="/PersonalBanking/InvestmentServices.aspx">Investment Services</a></li>
+                            <li><a href="https://www.midfirstprivatebank.com/">Wealth Management</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li><a href="" onclick="javascript:TrackAction('Nav Menu Click','Business'); return false;">
+                        Business</a>
+                        <ul>
+                            <li>
+                                <a href="/BusinessBanking/Checking.aspx" id="ctl00_lnkBusinessChecking">Checking</a>
+                            </li>
+                            <li><a href="/BusinessBanking/Savings.aspx">Savings</a></li>
+                            <li><a href="/TreasuryManagementServices/iManageBusinessBanking.aspx">Online Banking
+                                Solutions</a></li>
+                            <li><a href="/BusinessBanking/Loans.aspx">Business Loans</a></li>
+                            <li><a href="/TreasuryManagementServices/">Treasury Management</a></li>
+                            <li><a href="/BusinessVISACards/">Business Visa<sup class="Above">&reg;</sup> Cards</a></li>
+                            <li><a href="/BusinessBanking/InvestmentServices.aspx">Investment Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" onclick="javascript:TrackAction('Nav Menu Click','Commercial'); return false;">
+                        Commercial</a>
+                        <ul>
+                            <li>
+                                <a href="/CommercialBanking/Checking.aspx" id="ctl00_lnkCommercialChecking">Checking</a>
+                            </li>
+                            <li><a href="/CommercialBanking/Savings.aspx">Savings</a></li>
+                            <li><a href="/TreasuryManagementServices/iManageBusinessBanking.aspx">Online Banking
+                                Solutions</a></li>
+                            <li><a href="/CommercialBanking/Loans.aspx">Commercial Loans</a></li>
+                            <li><a href="/TreasuryManagementServices/">Treasury Management</a></li>
+                            <li><a href="/BusinessVISACards/">Business Visa<sup class="Above">&reg;</sup> Cards</a></li>
+                            <li><a href="/RealEstateFinance/Default.aspx">National RE Finance</a></li>
+                            <li><a href="/CommercialBanking/InvestmentServices.aspx">Investment Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" onclick="javascript:TrackAction('Nav Menu Click','Inside MidFirst'); return false;">
+                        Inside MidFirst</a>
+                        <ul>
+                            <li><a href="/InsideMidFirst/AboutUs.aspx">About Us</a></li>
+                            <li><a href="/CareerCenter/">Career Center</a></li>
+                            <li>
+                                <a href="/InsideMidFirst/WhyMidFirst.aspx" id="ctl00_lnkWhyMidFirst">Why MidFirst</a>
+                            </li>
+							
+							  <li><a href="/TVCommercials/Default.aspx">MidFirst Commercials</a></li>
+						   <li><a href="/Tools/Calculators.aspx">Calculators</a></li>
+                            <li><a href="/Tools/FAQs.aspx">Frequently Asked Questions</a></li>
+                            <li><a href="/InsideMidFirst/Sustainability.aspx">Sustainability</a></li>
+                            <li><a href="/InsideMidFirst/FinancialReports.aspx">Financial Reports</a></li>
+                            <li>
+                                <a href="/InsideMidFirst/PressReleases.aspx" id="ctl00_lnkPressRelease">Press Releases</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="location_wrap"><span class="locate">Find a Banking Center or ATM</span>
+                        <div id="ctl00_pnlSearchLocations" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_btnFindLocation')">
+	
+                            <div id="location_dropdown" style="display: none;">
+                                <div align="center">
+                                    <label id="lblLatLngSearchError" class="ErrorRequired" style="visibility: hidden;">
+                                        Invalid Address Provided</label><br />
+                                    <input name="ctl00$txtFindLocation" type="text" maxlength="40" id="ctl00_txtFindLocation" class="location" style="width:200px;" />
+                                    <input type="submit" name="ctl00$btnFindLocation" value="GO" onclick="javascript:loadMaps(true); return false;jQuery('#ctl00_btnFindLocation').attr('disabled', true);__doPostBack('ctl00$btnFindLocation','');" id="ctl00_btnFindLocation" class="submit location_submit" />                                  
+                                </div>
+                            </div>
+                        
+</div>
+                    </li>
+                </ul>
+                <div id="content_sub">
+                    <div id="sign_in_wrap" class="clearfix sign_in_ready_border">
+                        <div class="sidebar_module_header clearfix">
+                            <h3 class="header_sub_options" id="header_sub_options">
+                                Select an Online Banking System</h3>
+                        </div>
+                        <div class="sidebar_module_body clearfix">
+                            <div id="sign_in_form" class="sign_in_form clearfix">							
+							  <div id="ctl00_ctl00_pnlOLBSystemAjaxPanel">
+	<div id="ctl00_pnlOLBSystemAjax" style="height:97px;">
+		<!-- 2009.3.1208.35 -->
+							    <div id="ctl00_PersonalLogin1_pnlPersonalSignIn" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_PersonalLogin1_btnPersonalSignIn')">
+			    
+        <ul id="ctl00_PersonalLogin1_pLogin">
+            <li>
+                <label for="ctl00_PersonalLogin1_txtPersonalBankingID" id="ctl00_PersonalLogin1_lblBankingIDLabel" class="login_copy">Personal Banking ID</label>
+                <input name="ctl00$PersonalLogin1$txtPersonalBankingID" type="text" maxlength="32" id="ctl00_PersonalLogin1_txtPersonalBankingID" class="OLBSignIn" />
+                <input type="button" name="ctl00$PersonalLogin1$btnPersonalSignIn" value="Sign In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$PersonalLogin1$btnPersonalSignIn&quot;, &quot;&quot;, true, &quot;vg_PersonalLogin1&quot;, &quot;&quot;, false, true))" id="ctl00_PersonalLogin1_btnPersonalSignIn" class="submit" />
+            </li>
+            <li>
+                <span id="ctl00_PersonalLogin1_rfvPersonalBankingID" style="color:Red;visibility:hidden;">Banking ID Required</span>
+            </li>
+        </ul>
+        
+        <label class="secure_access">
+            Secure Account Access</label>   
+
+		</div>
+                                <div id="ctl00_BusinessLogin1_pnlBusinessSignIn" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_BusinessLogin1_btnBusinessSignIn')" style="display:none;">
+			  
+        <ul id="ctl00_BusinessLogin1_ulLogin">
+            <li>
+                <label for="ctl00_BusinessLogin1_txtCompanyID" id="ctl00_BusinessLogin1_lblBankingIDLabel" class="login_copy">Business Banking Company ID</label>
+                <input name="ctl00$BusinessLogin1$txtCompanyID" type="text" maxlength="32" id="ctl00_BusinessLogin1_txtCompanyID" class="OLBSignIn" />
+            </li>
+            <li>
+                <span id="ctl00_BusinessLogin1_rfvCompanyID" style="color:Red;visibility:hidden;">Company ID Required</span>
+            </li>
+            <li>
+                <label for="ctl00_BusinessLogin1_txtBusinessBankingID" id="ctl00_BusinessLogin1_lblCompanyID" class="login_copy">User ID</label>
+                <input name="ctl00$BusinessLogin1$txtBusinessBankingID" type="text" maxlength="32" id="ctl00_BusinessLogin1_txtBusinessBankingID" class="OLBSignIn" />
+                <input type="button" name="ctl00$BusinessLogin1$btnBusinessSignIn" value="Sign In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$BusinessLogin1$btnBusinessSignIn&quot;, &quot;&quot;, true, &quot;vg_BusinessLogin1&quot;, &quot;&quot;, false, true))" id="ctl00_BusinessLogin1_btnBusinessSignIn" class="submit" />
+            </li>
+            <li>
+                <span id="ctl00_BusinessLogin1_rfvBusinessBankingID" style="color:Red;visibility:hidden;">Banking ID Required</span>
+            </li>
+        </ul>
+        
+        <label class="secure_access">
+            Secure Account Access</label>    
+
+		</div>
+
+                                <div id="ctl00_BusinessExpressLogin1_pnlBusinessSignIn" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_BusinessExpressLogin1_btnBusinessSignIn')" style="display:none;">
+			   
+            <ul id="ctl00_BusinessExpressLogin1_ulLogin">
+            <li>
+                <label for="ctl00_BusinessExpressLogin1_txtCompanyID" id="ctl00_BusinessExpressLogin1_lblBankingIDLabel" class="login_copy">Business Express Company ID</label>
+                <input name="ctl00$BusinessExpressLogin1$txtCompanyID" type="text" maxlength="32" id="ctl00_BusinessExpressLogin1_txtCompanyID" class="OLBSignIn" />
+            </li>
+            <li>
+                <span id="ctl00_BusinessExpressLogin1_rfvCompanyID" style="color:Red;visibility:hidden;">Company ID Required</span>
+            </li>
+            <li>
+                <label for="ctl00_BusinessExpressLogin1_txtBusinessBankingID" id="ctl00_BusinessExpressLogin1_lblCompanyID" class="login_copy">User ID</label>
+                <input name="ctl00$BusinessExpressLogin1$txtBusinessBankingID" type="text" maxlength="32" id="ctl00_BusinessExpressLogin1_txtBusinessBankingID" class="OLBSignIn" />
+                <input type="button" name="ctl00$BusinessExpressLogin1$btnBusinessSignIn" value="Sign In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$BusinessExpressLogin1$btnBusinessSignIn&quot;, &quot;&quot;, true, &quot;vg_BusinessExpressLogin1&quot;, &quot;&quot;, false, true))" id="ctl00_BusinessExpressLogin1_btnBusinessSignIn" class="submit" />
+            </li>
+            <li>
+                <span id="ctl00_BusinessExpressLogin1_rfvBusinessBankingID" style="color:Red;visibility:hidden;">Banking ID Required</span>
+            </li>
+        </ul>
+        
+        <label class="secure_access">
+            Secure Account Access</label>    
+
+		</div>
+
+                                <div id="ctl00_ExternalHostLogin1_pnlExternalLogin" style="display:none;">
+			
+    <ul style="min-height: 55px">
+        <li>
+            <label for="ctl00_ExternalHostLogin1_btnSignInExternal" id="ctl00_ExternalHostLogin1_lblSignExternal" class="external_login_copy"></label>
+        </li>
+        <li>
+            <input name="ctl00$ExternalHostLogin1$btnSignInExternal" type="button" id="ctl00_ExternalHostLogin1_btnSignInExternal" class="submit" value="Sign In" />
+        </li>
+        <li>&nbsp;</li>
+    </ul>   
+    <label class="secure_access">Secure Account Access</label>
+
+		</div>
+
+                                <div id="ctl00_EVisionLogin1_pnlEVisionSignIn" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_EVisionLogin1_btnEVisionSignIn')" style="display:none;">
+			   
+        <ul id="ctl00_EVisionLogin1_ulLogin">
+            <li>
+                <label for="ctl00_EVisionLogin1_txtUserName" id="ctl00_EVisionLogin1_lblUserName" class="login_copy">Images User Name</label>
+                <input name="ctl00$EVisionLogin1$txtUserName" type="text" maxlength="20" id="ctl00_EVisionLogin1_txtUserName" class="OLBSignIn" />
+            </li>
+            <li>
+                <span id="ctl00_EVisionLogin1_rfvUserName" style="color:Red;visibility:hidden;">User Name Required</span>
+            </li>
+            <li>
+                <label for="ctl00_EVisionLogin1_txtPassword" id="ctl00_EVisionLogin1_lblPassword" class="login_copy">Password</label>
+                <input name="ctl00$EVisionLogin1$txtPassword" type="password" maxlength="20" id="ctl00_EVisionLogin1_txtPassword" class="OLBSignIn" />
+            </li>
+            <li>
+                <span id="ctl00_EVisionLogin1_rfvPassword" style="color:Red;visibility:hidden;">Password Required</span>
+            </li>
+            <li>
+                <label for="ctl00_EVisionLogin1_ddlGroup" id="ctl00_EVisionLogin1_lblGroup" class="login_copy">Group</label>
+                <select name="ctl00$EVisionLogin1$ddlGroup" id="ctl00_EVisionLogin1_ddlGroup" class="OLBSignIn">
+				<option selected="selected" value="mfblockbox">MFBLockBox</option>
+				<option value="midfirst">MidFirst</option>
+
+			</select>
+                <input type="button" name="ctl00$EVisionLogin1$btnEVisionSignIn" value="Sign In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$EVisionLogin1$btnEVisionSignIn&quot;, &quot;&quot;, true, &quot;vg_EVisionLogin1&quot;, &quot;&quot;, false, true))" id="ctl00_EVisionLogin1_btnEVisionSignIn" class="submit" style="float:right;" />
+            </li>
+            <li>
+                <span id="ctl00_EVisionLogin1_rfvGroup" style="color:Red;visibility:hidden;">Group Required</span>
+            </li>
+        </ul>
+        
+        <label class="secure_access">
+            Secure Account Access</label>  
+
+		</div>
+
+                                <div id="ctl00_PosPayLogin1_pnlPosPaySignIn" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_PosPayLogin1_btnPosPaySignIn')" style="display:none;">
+			
+   
+        <ul id="ctl00_PosPayLogin1_ulLogin">
+            <li>
+                <label for="ctl00_PosPayLogin1_txtUserName" id="ctl00_PosPayLogin1_lblUserName" class="login_copy">Positive Pay User Name</label>
+                <input name="ctl00$PosPayLogin1$txtUserName" type="text" maxlength="20" id="ctl00_PosPayLogin1_txtUserName" class="OLBSignIn" />
+            </li>
+            <li>
+                <span id="ctl00_PosPayLogin1_rfvUserName" style="color:Red;visibility:hidden;">User Name Required</span>
+            </li>
+            <li>
+                <label for="ctl00_PosPayLogin1_txtPassword" id="ctl00_PosPayLogin1_lblPassword" class="login_copy">Password</label>
+                <input name="ctl00$PosPayLogin1$txtPassword" type="password" maxlength="20" id="ctl00_PosPayLogin1_txtPassword" class="OLBSignIn" />
+                <input type="button" name="ctl00$PosPayLogin1$btnPosPaySignIn" value="Sign In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$PosPayLogin1$btnPosPaySignIn&quot;, &quot;&quot;, true, &quot;vg_PosPayLogin1&quot;, &quot;&quot;, false, true))" id="ctl00_PosPayLogin1_btnPosPaySignIn" class="submit" />
+            </li>
+            <li>
+                <span id="ctl00_PosPayLogin1_rfvPassword" style="color:Red;visibility:hidden;">Password Required</span>
+            </li>
+        </ul>
+        
+        <label class="secure_access">
+            Secure Account Access</label>
+   
+
+		</div>
+
+                                <div id="ctl00_MerchDirectLogin1_pnlMerchDirectSignIn" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_MerchDirectLogin1_btnMerchDirectSignIn')" style="display:none;">
+			   
+        <ul id="ctl00_MerchDirectLogin1_ulLogin">
+            <li>
+                <label for="ctl00_MerchDirectLogin1_txtUserName" id="ctl00_MerchDirectLogin1_lblUserName" class="login_copy">Remote Deposit User Name</label>
+                <input name="ctl00$MerchDirectLogin1$txtUserName" type="text" maxlength="20" id="ctl00_MerchDirectLogin1_txtUserName" class="OLBSignIn" />
+            </li>
+            <li>
+                <span id="ctl00_MerchDirectLogin1_rfvUserName" style="color:Red;visibility:hidden;">User Name Required</span>
+            </li>
+            <li>
+                <label for="ctl00_MerchDirectLogin1_txtPassword" id="ctl00_MerchDirectLogin1_lblPassword" class="login_copy">Password</label>
+                <input name="ctl00$MerchDirectLogin1$txtPassword" type="password" maxlength="20" id="ctl00_MerchDirectLogin1_txtPassword" class="OLBSignIn" />
+                <input type="button" name="ctl00$MerchDirectLogin1$btnMerchDirectSignIn" value="Sign In" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MerchDirectLogin1$btnMerchDirectSignIn&quot;, &quot;&quot;, true, &quot;vg_MerchDirectLogin1&quot;, &quot;&quot;, false, true))" id="ctl00_MerchDirectLogin1_btnMerchDirectSignIn" class="submit" />
+            </li>
+            <li>
+                <span id="ctl00_MerchDirectLogin1_rfvPassword" style="color:Red;visibility:hidden;">Password Required</span>
+            </li>
+        </ul>
+        
+        <label class="secure_access">
+            Secure Account Access</label>
+
+		</div>
+
+							 
+	</div>
+</div>
+								<div id="ctl00_radOLBSystemLoading" style="display:none;height:140px;">
+			
+							<div style="background-color:#f5f5f4; height:100%;">
+							<img src='/Images/Global/Progress-32.gif' alt='Please Wait...' style="margin-top:10px;" />
+							<br>
+							<span style='color: #000; font-size: 8pt;'><b>Please Wait....</b></span>
+						   </div>
+</div>	
+                            </div>
+                            <div id="options" style="display: none;">
+                                <h3>Personal Banking</h3>
+                                <h4>Online Banking</h4>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Personal Banking" id="imanage_personal" /><label
+                                            for="imanage_personal">iManage Personal Banking</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Credit Card" id="credit_card" /><label
+                                            for="credit_card">Credit Card</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Payroll Cards Employee" id="payroll_cards_employee" /><label
+                                            for="payroll_cards_employee">Payroll Card - Employee</label></li>
+											   <li>
+                                        <input type="radio" name="radAccountType" value="IdentitySecure" id="IdentitySecure" /><label
+                                            for="IdentitySecure">IdentitySecure<sup class="above" style="color:#f60;vertical-align:super; font-size:7pt;">SM</sup></label></li>
+
+                                </ul>
+                                <h4>Prepaid Virtual Cash Visa<sup>&reg;</sup></h4>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Virtual Cash Cardholder" id="cardholder_sponsor" /><label
+                                            for="cardholder_sponsor">Cardholder</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Virtual Cash Gift Giver" id="gift_giver" /><label
+                                            for="gift_giver">Gift Giver</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Virtual Cash Sponsor" id="Sponsor" /><label
+                                            for="Sponsor">Sponsor</label></li>
+                                </ul>
+                                <h3>Business Banking</h3>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Business Banking" id="imanage_business" /><label
+                                            for="imanage_business">iManage Business Banking<sup>&reg;</sup></label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Business Express Banking" id="imanage_business_express" /><label
+                                            for="imanage_business_express">iManage Business Express<sup>&reg;</sup></label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Images" id="imanage_images" /><label
+                                            for="imanage_images">Images</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Images Plus" id="imanage_images_plus" /><label
+                                            for="imanage_images_plus">Images Plus</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Positive Pay" id="imanage_positive_pay" /><label
+                                            for="imanage_positive_pay">Positive Pay</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Remote Deposit" id="imanage_remote" /><label
+                                            for="imanage_remote">Remote Deposit</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Payroll Cards Employer" id="payroll_cards" /><label
+                                            for="payroll_cards">Payroll Card - Employer</label></li>
+                                </ul>
+                                <h3>Wealth Management</h3>
+                                <ul>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Portfolio Online" id="portfolio_online" /><label
+                                            for="portfolio_online">Portfolio Online</label></li>
+                                    <li>
+                                        <input type="radio" name="radAccountType" value="Investment Services" id="investment_services" /><label
+                                            for="investment_services">MidFirst Investment Services</label></li>
+                                </ul>
+                                <div class="sidebar_module_footer">
+                                </div>
+                            </div>
+                            <ul class="sign_in_sub">
+                                <li class="sign_in_sub_detail" style="margin-left: 20px;"><a onclick="javascript:TrackAction('Sign In Box', 'Personal Banking Enroll Now');"
+                                    href="https://cibng.ibanking-services.com/cib/themes/cib_enroll/enroll/enroll.jsp?FIORG=731&FIFID=303087995"
+                                    target="_blank">Enroll now</a></li>
+                                <li class="sign_in_sub_detail" style="margin-left: 20px;"><a href="javascript:void(0); "
+                                    id="forgotpass" onclick="TrackAction('Sign In Box', 'Forgot Password');">Forgot
+                                    your password</a> </li>
+                                <li class="sign_in_sub_detail" style="margin-left: 20px;"><a href="javascript:void(0);"
+                                    id="lnkDemos">Online Demos</a> </li>
+                                <li class="sign_in_sub_detail" style="margin-left: 20px;"><a href="/Complete/" target="_blank"
+                                    id="CompleteApp" onclick="TrackAction('Sign In Box', 'Complete App');">Online Account
+                                    Completion</a> </li>
+                            </ul>
+                        </div>
+                        <div class="sidebar_module_footer">
+                        </div>
+                    </div>
+                    <div id="sidebar_module" class="clearfix">
+                        
+    
+<div class="sidebar_module_header clearfix"> 
+	<h3 class="header_sub">Personal Banking</h3> 
+</div> 
+<div class="sidebar_module_body clearfix"> 
+	<ul class="sidebar_nav"> 
+		<li><a href="Checking.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkChecking" class="sidebar_nav_link current">Checking Accounts</a></li> 
+		<li><a href="Savings.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkSavings" class="sidebar_nav_link">Savings Accounts</a></li>
+    <li><a href="CDIRAs.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkCDIRA" class="sidebar_nav_link">
+        CDs and IRAs</a></li>
+    <li><a href="OnlineBanking.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkOnlineBanking" class="sidebar_nav_link">
+       Online Banking</a></li>
+  		<li><a href="HomeEquityLoans.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkHomeEquity" class="sidebar_nav_link">Home Equity Loans</a></li> 
+		<li><a href="PersonalLoans.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkPersonal" class="sidebar_nav_link">Other Personal Loans</a></li> 
+		<li><a href="MortgageLoans.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkMortgage" class="sidebar_nav_link">Mortgage Loans</a></li> 
+		<li><a href="../MidFirstVisaCards/Default.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkCredit" class="sidebar_nav_link">MidFirst Visa&reg; Cards</a></li> 
+		<li><a href="InvestmentServices.aspx" id="ctl00_sidebarContent_mnuPBMenu_lnkInvestment" class="sidebar_nav_link">
+       Investment Services</a></li> 
+	</ul> 
+</div> 
+<div class="sidebar_module_footer"></div>
+
+                    </div>
+                    
+    <div class="xsale_wrap">
+    
+       <a href="/PersonalBanking/OnlineBankingLogin.aspx" onclick="TrackActionLabel('Ads', 'Estatements', 'Left Side Bar Tall');">
+        <img src="/Images/Assets/CrossSellBanner/GEN/gn_estatements_216x180.jpg" />
+       </a>
+    
+       </div>
+       <div class="xsale_wrap">
+        <img src="/Images/Assets/CrossSellBanner/GEN/gn_true_to_your_money_216x72.jpg" alt="True to Your Money"
+            width="216" height="72" />
+    </div>
+
+                </div>
+                <div id="content_main" class="clearfix" style="min-height: 400px! important">
+                    
+
+<!-- New Slider Code -->
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		
+		//Ghost function - keeps the variables local !DO THIS OFTEN!!!!!!!
+		(function() {
+			//Define the location of the image repository
+			var imgLocation = '/Images/photoFeature/', currentSet = new Array(), FullSet = new Array(), imgNum = 000, 
+			//This is the max amount of images in the directory.
+			endNum = 025;
+			
+			
+			//Insert stuff into the list items
+			$('#imgList li').text('<img src="' + imgNum + '" alt="" />');
+		})(); //End ghost function
+	
+		function changeImage(imgNum endNum) { 
+			for ( i = 0; i < 4 ; i++ ) { 
+				Math.floor(Math.random() * endNum + 1);
+				console.log(endNum);
+				return;
+				}
+
+		}; //end changeImg function
+	
+	});
+	
+</script>
+
+
+	<div id="featureImageHolder">
+		<ul id="imgList">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+	
+<!-- / New Slider Code -->
+
+
+
+	 	<ul class="nav_breadcrumb clearfix">
+	        <li class="breadcrumb_first"><a href="/Default.aspx" class="nav_breadcrumb_link">home</a></li>
+	    </ul>
+	    <div class="page_details">
+	        <h2 class="page_title">
+	            Personal Checking</h2>
+	        <p>
+	            With any MidFirst Bank checking account, you will receive a variety of benefits
+	            with a wide range of features designed to meet your specific financial needs, and
+	            only $100 opens any checking account.</p>
+	    </div>
+    <div class="show_hide">
+        <a id="expandAll" href="javascript:expandAll()">Expand All</a> | 
+        <a id="hideAll" >Hide All</a>
+    </div>
+    <div class="callout clearfix">
+        <h3 class="callout_title">
+            Signature Checking</h3>
+        <div class="callout_details_head">
+        </div>
+        <div class="callout_details unNormalize clearfix">
+            <div class="account_type clearfix">
+                <div class="account_type_details">
+                    <p>
+                        Signature Checking<sup class="above">&reg;</sup> is our premier account, designed
+                        to reward you for your total relationship with MidFirst Bank. Special features of
+                        our Signature Checking<sup class="above">&reg;</sup> account include:</p>
+                    <ul>
+                        <li>Competitive tiered interest rates for higher earning potential</li>
+                        <li>Free unlimited iManage Bill Payment</li>
+                        <li>Free small safe deposit box for one year, subject to availability</li>
+                    </ul>
+                    <a id="lnkSignatureDetails" href="javascript:AnimateCollapseTrackAction('signatureCallout', 'true',  'Personal Checking AZ','Signature Checking Details Viewed','lnkSignatureDetails','Detail');"
+                        class="toggle_show_hide">Show details</a>
+                    <div id="signatureCallout" style="display: none;">
+                        <p>
+                            Signature Checking<sup class="above">&reg;</sup> is complimentary with one of the following:
+                            $10,000 in checking, savings, or money market accounts; $40,000 in CDs or IRAs;
+                            $15,000 in loans; or combined balances of $20,000 in checking, savings, money market
+                            accounts or loans.</p>
+                        <ul class="account_terms clearfix">
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Account Benefits</h5>
+                                <br />
+                                <ul>
+                                    <li>Free wallet style checks</li>
+                                    <li>Free check images with monthly statement</li>
+                                    <li>Free travelers checks, money orders and official checks</li>
+                                    <li>Free domestic wire transfers</li>
+                                    <li>Free Visa<sup class="above">&reg;</sup> Check Card</li>
+                                    <li>Free small safe deposit box for one year</li>
+                                    <li><a href="ValueSelect.aspx">Value Select Add-on Package</a> </li>
+                                    <li><a href="IdentitySecure.aspx">IdentitySecure Add-on Package</a> </li>
+                                    <li><a href="javascript:void(0);" class="PCLD">Preferred Customer Loan Discount</a></li>
+                                    <li><a href="FDICInsurance.aspx">FDIC Insurance</a> </li>
+									<li><a href="Overdraft-Services.aspx">Overdraft Services</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Online Tools</h5>
+                                <br />
+                                <ul>
+                                    <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                                        eStatements </li>
+                                    <li>Free unlimited iManage Bill Payment </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    ATM Benefits</h5>
+                                <br />
+                                
+                                <ul class="account_terms_detail_single">
+                                    <li>
+									  Free ATMs nationwide
+                                      
+									 </li>
+                                </ul>
+                                
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Monthly Fees</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>$14 monthly fee if balance requirement is not met </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="account_type_tools">
+                    <a href="/PersonalBanking/CompareAccounts.aspx" onclick="javascript:TrackAction('Compare Accounts AZ','Signature Checking','Detail');"
+                        class="button_tools">Compare Accounts</a> 
+								
+						<a href="javascript:void(0);"  onclick="submitForm(65767, 'Signature Checking');"
+                            class="button_tools">Open Account</a>
+								<a href="CheckingRates.aspx" class="button_tools">View Rates</a>
+							
+                </div>
+            </div>
+            <div class="callout_details_footer">
+            </div>
+        </div>
+    </div>
+    <div class="callout clearfix">
+        <h3 class="callout_title">
+            iManage eChecking<sup class="above">&reg;</sup></h3>
+        <div class="callout_details_head">
+        </div>
+        <div class="callout_details unNormalize clearfix">
+            <div class="account_type clearfix">
+                <div class="account_type_details">
+                    <p>
+                        iManage eChecking<sup class="above">&reg;</sup> is a paperless checking account that provides a convenient way
+                        to manage your finances online, saving time and money. iManage eChecking<sup class="above">&reg;</sup> is available
+                        to MidFirst Bank customers who enroll in iManage Personal Banking<sup class="above">&reg;</sup>
+                        and receive eStatements only.
+                    </p>
+                    <ul>
+                        <li>Earn an extra 2.02%<sup class="above">1</sup> APY on balances up to $20,000 when
+                            you utilize direct deposit and make a minimum of 12 signature-based Visa<sup class="above">&reg;</sup>
+                            Check Card transactions per monthly statement cycle and receive eStatements instead of paper statements</li>
+                        <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                            eStatements </li>
+                        <li>Free unlimited iManage Bill Payment</li>
+                    </ul>
+                    <a id="lnkeChecking" href="javascript:AnimateCollapseTrackAction('eCheckingCallout', 'true', 'Personal Checking AZ','iManage eChecking Details Viewed', 'lnkeChecking','Detail');"
+                        class="toggle_show_hide">Show details</a>
+                    <div id="eCheckingCallout" style="display: none;">
+                        <ul class="account_terms clearfix">
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Account Benefits</h5>
+                                <br />
+                                <ul>
+                                    <li>Earn an extra 2.02%<sup class="above">1</sup> APY on balances up to $20,000 when
+                                        you utilize direct deposit and make a minimum of 12 signature-based Visa<sup class="above">&reg;</sup>
+                                        Check Card transactions per monthly statement cycle and receive eStatements instead
+                                        of paper statements</li>
+                                    <li>Free Visa<sup class="above">&reg;</sup> Check Card</li>
+                                    <li><a href="ValueSelect.aspx">Value Select Add-on Package</a> </li>
+                                    <li><a href="IdentitySecure.aspx">IdentitySecure Add-on Package</a> </li>
+                                    <li><a href="javascript:void(0);" class="PCLD">Preferred Customer Loan Discount</a></li>
+                                    <li><a href="FDICInsurance.aspx">FDIC Insurance</a></li>
+									<li><a href="Overdraft-Services.aspx">Overdraft Services</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Online Tools</h5>
+                                <br />
+                                <ul>
+                                    <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                                        eStatements </li>
+                                    <li>Free unlimited iManage Bill Payment</li>
+                                    <li>Free check images with monthly eStatement </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    ATM Benefits</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>
+                                        
+                                        Free ATMs nationwide
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Monthly Fees</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>No monthly service charge</li></ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="account_type_tools">
+                    <a href="/PersonalBanking/CompareAccounts.aspx" onclick="javascript:TrackAction('Compare Accounts AZ','iManage eChecking','Detail');"
+                        class="button_tools">Compare Accounts</a>														
+										
+						<a href="javascript:void(0);"  onclick="submitForm(65761, 'iManage eChecking');"
+                            class="button_tools">Open Account</a>
+								<a href="CheckingRates.aspx" class="button_tools">View Rates</a>
+                </div>
+            </div>
+            <div class="callout_details_footer">
+            </div>
+        </div>
+    </div>
+    <div class="callout clearfix">
+        <h3 class="callout_title">
+            Performance Checking</h3>
+        <div class="callout_details_head">
+        </div>
+        <div class="callout_details unNormalize clearfix">
+            <div class="account_type clearfix">
+                <div class="account_type_details">
+                    <p>
+                        Performance Checking provides extra benefits with no minimum average daily balance
+                        requirement.</p>
+                    <ul>
+                        <li>Free wallet style checks</li>
+                        <li>Free unlimited iManage Bill Payment</li>
+                        <li>Free travelers checks, money orders and official checks</li>
+                    </ul>
+                    <a id="lnkPerformanceDetails" href="javascript:AnimateCollapseTrackAction('performanceCallout', 'true', 'Personal Checking AZ','Performance Checking Details Viewed', 'lnkPerformanceDetails','Detail');"
+                        class="toggle_show_hide">Show details</a>
+                    <div id="performanceCallout" style="display: none;">
+                        <ul class="account_terms clearfix">
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Account Benefits</h5>
+                                <br />
+                                <ul>
+                                    <li>Free wallet style checks</li>
+                                    <li>Free travelers checks, money orders and official checks</li>
+                                    <li>Free check images with monthly statement</li>
+                                    <li>Free Visa<sup class="above">&reg;</sup> Check Card</li>
+                                    <li><a href="ValueSelect.aspx">Value Select Add-on Package</a> </li>
+                                    <li><a href="IdentitySecure.aspx">IdentitySecure Add-on Package</a> </li>
+                                    <li><a href="javascript:void(0);" class="PCLD">Preferred Customer Loan Discount</a></li>
+                                    <li><a href="FDICInsurance.aspx">FDIC Insurance</a></li>
+									<li><a href="Overdraft-Services.aspx">Overdraft Services</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Online Tools</h5>
+                                <br />
+                                <ul>
+                                    <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                                        eStatements </li>
+                                    <li>Free unlimited iManage Bill Payment</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    ATM Benefits</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>
+                                       
+                                        Free ATMs nationwide
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Monthly Fees</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>Enjoy all of these benefits for only $6 a month</li></ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="account_type_tools">
+                    <a href="/PersonalBanking/CompareAccounts.aspx" onclick="javascript:TrackAction('Compare Accounts AZ','Performance Checking','Detail');"
+                        class="button_tools">Compare Accounts</a> 											
+						<a href="javascript:void(0);"  onclick="submitForm(65757, 'Performance Checking');"
+                            class="button_tools">Open Account</a>	
+									
+                </div>
+            </div>
+            <div class="callout_details_footer">
+            </div>
+        </div>
+    </div>
+    <div class="callout clearfix">
+        <h3 class="callout_title">
+            Performance Plus Checking
+        </h3>
+        <div class="callout_details_head">
+        </div>
+        <div class="callout_details unNormalize clearfix">
+            <div class="account_type clearfix">
+                <div class="account_type_details">
+                    <p>
+                        Performance Plus Checking allows you to enjoy the many benefits of our Performance
+                        Checking account while earning a competitive interest rate.</p>
+                    <ul>
+                        <li>Tiered interest rates</li>
+                        <li>Free unlimited iManage Bill Payment</li>
+                        <li>Free travelers checks, money orders and official checks</li>
+                    </ul>
+                    <a id="lnkPerformancePlus" href="javascript:AnimateCollapseTrackAction('performancePlusCallout', 'true', 'Personal Checking AZ','Performance Plus Checking Details Viewed','lnkPerformancePlus','Detail');"
+                        class="toggle_show_hide">Show details</a>
+                    <div id="performancePlusCallout" style="display: none;">
+                        <p>
+                            Performance Plus Checking provides interest earned on collected balances and the
+                            monthly maintenance fee is waived with an average daily balance of $2,500 or higher.</p>
+                        <ul class="account_terms clearfix">
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Account Benefits</h5>
+                                <br />
+                                <ul>
+                                    <li>Free wallet style checks</li>
+                                    <li>Free travelers checks, money orders and official checks</li>
+                                    <li>Free check images with monthly statement</li>
+                                    <li>Free Visa<sup class="above">&reg;</sup> Check Card</li>
+                                    <li><a href="ValueSelect.aspx">Value Select Add-on Package</a> </li>
+                                    <li><a href="IdentitySecure.aspx">IdentitySecure Add-on Package</a> </li>
+                                    <li><a href="javascript:void(0);" class="PCLD">Preferred Customer Loan Discount</a></li>
+                                    <li><a href="FDICInsurance.aspx">FDIC Insurance</a></li>
+									<li><a href="Overdraft-Services.aspx">Overdraft Services</a> </li>
+                               </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Online Tools</h5>
+                                <br />
+                                <ul>
+                                    <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                                        eStatements </li>
+                                    <li>Free unlimited iManage Bill Payment</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    ATM Benefits</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>
+                                         
+                                        Free ATMs nationwide
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Monthly Fees</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>$7 monthly fee if your average daily balance falls below $2,500 </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="account_type_tools">
+                    <a href="/PersonalBanking/CompareAccounts.aspx" onclick="javascript:TrackAction('Compare Accounts AZ','Performance Plus Checking','Detail');"
+                        class="button_tools">Compare Accounts</a>
+										
+						<a href="javascript:void(0);"  onclick="submitForm(65765, 'Performance Plus Checking');"
+                            class="button_tools">Open Account</a>
+							<a href="CheckingRates.aspx" class="button_tools">View Rates</a>
+                </div>
+            </div>
+            <div class="callout_details_footer">
+            </div>
+        </div>
+    </div>
+    <div class="callout clearfix">
+        <h3 class="callout_title">
+            Performance 50 Checking</h3>
+        <div class="callout_details_head">
+        </div>
+        <div class="callout_details unNormalize clearfix">
+            <div class="account_type clearfix">
+                <div class="account_type_details">
+                    <p>
+                        Performance 50 Checking is designed exclusively for those 50 and older and provides
+                        additional banking benefits.</p>
+                    <ul>
+                        <li>Tiered interest rates</li>
+                        
+                        Free ATMs nationwide
+                        
+                        <li>Free travelers checks, money orders and official checks</li>
+                    </ul>
+                    <a id="lnkPerformance50" href="javascript:AnimateCollapseTrackAction('performance50Callout', 'true', 'Personal Checking AZ','Performance 50 Checking Details Viewed','lnkPerformance50','Detail');"
+                        class="toggle_show_hide">Show details</a>
+                    <div id="performance50Callout" style="display: none;">
+                        <ul class="account_terms clearfix">
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Account Benefits</h5>
+                                <br />
+                                <ul>
+                                    <li>Free wallet style checks</li>
+                                    <li>Free check images with monthly statement</li>
+                                    <li>Free Visa<sup class="above">&reg;</sup> Check Card</li>
+                                    <li><a href="ValueSelect.aspx">Value Select Add-on Package</a> </li>
+                                    <li><a href="IdentitySecure.aspx">IdentitySecure Add-on Package</a> </li>
+                                    <li><a href="javascript:void(0);" class="PCLD">Preferred Customer Loan Discount</a></li>
+                                    <li><a href="FDICInsurance.aspx">FDIC Insurance</a></li>
+									<li><a href="Overdraft-Services.aspx">Overdraft Services</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Online Tools</h5>
+                                <br />
+                                <ul>
+                                    <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                                        eStatements </li>
+                                    <li>Free unlimited iManage Bill Payment</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    ATM Benefits</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>
+                                         
+                                        Free ATMs nationwide
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Monthly Fees</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>$5 monthly fee if your average daily balance falls below $2,500</li></ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="account_type_tools">
+                    <a href="/PersonalBanking/CompareAccounts.aspx" onclick="javascript:TrackAction('Compare Accounts AZ','Performance 50 Checking','Detail');"
+                        class="button_tools">Compare Accounts</a> 											
+						<a href="javascript:void(0);"  onclick="submitForm(65763, 'Performance 50 Checking');"
+                            class="button_tools">Open Account</a>
+							<a href="CheckingRates.aspx" class="button_tools">View Rates</a>
+							
+                </div>
+            </div>
+            <div class="callout_details_footer">
+            </div>
+        </div>
+    </div>
+    <div class="callout clearfix">
+        <h3 class="callout_title">
+            Free Checking Plus</h3>
+        <div class="callout_details_head">
+        </div>
+        <div class="callout_details unNormalize clearfix">
+            <div class="account_type clearfix">
+                <div class="account_type_details">
+                    <p>
+                        Free Checking Plus is a straightforward account with no monthly fee.</p>
+                    <ul>
+                        <li>No minimum balance required</li>
+                        <li>No monthly service charge</li>
+                        <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                            eStatements <sup class='above'>3</sup></li>
+                    </ul>
+                    <a id="lnkFreeChecking" href="javascript:AnimateCollapseTrackAction('freeCheckingCallout', 'true', 'Personal Checking AZ','Free Checking Plus Details Viewed','lnkFreeChecking','Detail');"
+                        class="toggle_show_hide">Show details</a>
+                    <div id="freeCheckingCallout" style="display: none;">
+                        <ul class="account_terms clearfix">
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Account Benefits</h5>
+                                <br />
+                                <ul>
+                                    <li>Free Visa<sup class="above">&reg;</sup> Check Card</li>
+                                    <li><a href="ValueSelect.aspx">Value Select Add-on Package</a> </li>
+                                    <li><a href="IdentitySecure.aspx">IdentitySecure Add-on Package</a> </li>
+                                    <li>Unlimited check writing</li>
+                                    <li>Monthly statement with optional image return</li>
+                                    <li><a href="javascript:void(0);" class="PCLD">Preferred Customer Loan Discount</a></li>
+                                    <li><a href="FDICInsurance.aspx">FDIC Insurance</a></li>
+									<li><a href="Overdraft-Services.aspx">Overdraft Services</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Online Tools</h5>
+                                <br />
+                                <ul>
+                                    <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                                        eStatements <sup class='above'>3</sup> </li>
+                                    <li>Optional iManage Bill Payment</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    ATM Benefits</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>
+                                        
+                                        Free ATMs nationwide
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Monthly Fees</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>No monthly service charge </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="account_type_tools">
+                    <a href="/PersonalBanking/CompareAccounts.aspx" onclick="javascript:TrackAction('Compare Accounts AZ','Free Checking Plus');"
+                        class="button_tools">Compare Accounts</a>													
+						<a href="javascript:void(0);"  onclick="submitForm(65755, 'Free Checking Plus');"
+                            class="button_tools">Open Account</a>	
+												
+                </div>
+            </div>
+            <div class="callout_details_footer">
+            </div>
+        </div>
+    </div>
+    <div class="callout clearfix">
+        <h3 class="callout_title">
+            University Checking</h3>
+        <div class="callout_details_head">
+        </div>
+        <div class="callout_details unNormalize clearfix">
+            <div class="account_type clearfix">
+                <div class="account_type_details">
+                    <p>
+                        University Checking is a basic account, offering students specific benefits and
+                        no monthly fee.</p>
+                    <ul>
+                        <li>No minimum balance required</li>
+                        <li>No monthly service charge</li>
+                        <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                            eStatements </li>
+                    </ul>
+                    <a id="lnkUniversityChecking" href="javascript:AnimateCollapseTrackAction('universityCheckingCallout', 'true', 'Personal Checking AZ','University Checking Details Viewed','lnkUniversityChecking','Detail');"
+                        class="toggle_show_hide">Show details</a>
+                    <div id="universityCheckingCallout" style="display: none;">
+                        <p>
+                            University Checking is free to university students.</p>
+                        <ul class="account_terms clearfix">
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Account Benefits</h5>
+                                <br />
+                                <ul>
+                                    <li>Free Visa<sup class="above">&reg;</sup> Check Card</li>
+                                    <li>Free introductory checks</li>
+                                    <li>Unlimited check writing</li>
+                                    <li>Monthly statement with optional image return</li>
+                                    <li><a href="ValueSelect.aspx">Value Select Add-on Package</a> </li>
+                                    <li><a href="IdentitySecure.aspx">IdentitySecure Add-on Package</a> </li>
+                                    <li><a href="javascript:void(0);" class="PCLD">Preferred Customer Loan Discount</a></li>
+                                    <li><a href="FDICInsurance.aspx">FDIC Insurance</a></li>
+									<li><a href="Overdraft-Services.aspx">Overdraft Services</a> </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Online Tools</h5>
+                                <br />
+                                <ul>
+                                    <li>Free iManage Personal Banking<sup class="above">&reg;</sup>, Mobile Banking and
+                                        eStatements </li>
+                                    <li>Optional iManage Bill Payment</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    ATM Benefits</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>
+                                        
+                                        Free ATMs nationwide
+                                        
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h5 class="account_terms_title">
+                                    Monthly Fees</h5>
+                                <br />
+                                <ul class="account_terms_detail_single">
+                                    <li>No monthly service charge </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="account_type_tools">
+                    <a href="/PersonalBanking/CompareAccounts.aspx" onclick="javascript:TrackAction('Compare Accounts AZ','University Checking');"
+                        class="button_tools">Compare Accounts</a>
+										
+						<a href="javascript:void(0);"  onclick="submitForm(65759, 'University Checking');"
+                            class="button_tools">Open Account</a>														
+                </div>
+            </div>
+            <div class="callout_details_footer">
+            </div>
+        </div>
+        <a id="lnkDisclosures" href="javascript:AnimateCollapseTrackAction('disclosures', 'true', 'Personal Checking AZ','Disclosure Viewed','lnkDisclosures','Disclosure');"
+            class="toggle_show_hide_disclosure">show disclosure</a>
+        <div id="disclosures" style="display: none;">
+            <p class="callout_subcopy">
+                <sup class="above">1</sup> To earn the advertised interest rate you must: have a
+                minimum average daily balance of at least one dollar ($1.00) yet less than twenty
+                thousand dollars ($20,000.00), enroll in iManage Personal Banking<sup class="above">&reg;</sup>
+                (Online Banking), enroll and receive monthly statements on the account in the
+                form of eStatements only, have at least one (1) direct deposit confirmed per statement
+                cycle into the eChecking Account, and have a minimum of twelve (12), signature-based,
+                Visa<sup class="above">&reg;</sup> debit card transactions per statement cycle.
+                If you meet the criteria stated above, the interest rate paid to your Account will
+                be 0.020% with an Annual Percentage Yield (APY) of 0.02%. You will also receive
+                an additional 2.00% interest rate with an APY of 2.02%. For balances that are equal
+                to or exceed twenty thousand dollars ($20,000.00) the interest rate for the portion
+                of the balance equal to or greater than twenty thousand dollars ($20,000.00) will
+                be 0.02% with an APY of 0.02%. $100.00 minimum deposit required to open this Account.
+                Fees may reduce earnings. Rates are accurate as of 01/21/2011 and subject to change
+                without notice.
+            </p>
+			
+			 <p class="callout_subcopy">
+                <sup class="above">3</sup> A monthly fee of $2 will be applied to Free Checking Plus accounts enrolled in iManage Personal Banking® that choose to receive paper statements.
+            </p>
+        </div>
+    </div>
+    <div id="pcld_popup" style="display: none;">
+        <p>
+            Earn a 0.50% loan discount on your personal or home equity loan when you make your
+            monthly payments via auto debit from a MidFirst checking account.</p>
+        <br />
+        <p>
+            Loan rate may revert to the non-discounted rate if the auto debit from your MidFirst
+            checking account discontinues.</p>
+    </div>
+	 <div id="oac_message" style="display: none;">
+        <p>
+      Thank you for your interest in a new account with MidFirst.
+		</p>
+		 <p style="padding-top:10px;">Our online account enrollment application is secure and safe.  Your personal information is protected with Secure Socket Layer encryption technology.  We hope you enjoy the convenience of opening your new account online.
+		 </p>
+		  <div class="unNormalize clearfix">
+		 <div class="account_type_tools" style="margin-left:110px;margin-top:10px;">
+		<a target="_blank" onclick="ContinueOAC();" style="cursor:pointer;" class="button_tools">Continue</a>						
+					</div>							
+					</div>	
+    </div>
+    <script language="javascript" type="text/javascript">
+    	function submitForm(id, txtProduct) {
+    		selectedProduct = txtProduct;
+    		TrackVirtualPage('/OnlineAccountCreation/Welcome.aspx');
+    		TrackActionLabel('OAC', 'Open', selectedProduct);
+    		var form = '<FORM name="frmOAC" id="frmOAC" ' +
+                        'action="https://onlineapps.ibanking-services.com/olnas/OLNASServlet/StappsApp"' +
+                        ' method=post target="_blank" enctype="application/x-www-form-urlencoded"> ' +
+                        '<input type="hidden" name="id" value="731">' +
+                        '<input type="hidden" name="prodid" value="">' +
+                        '<input type="hidden" name="ResetDGM" value="true"></form>';
+
+    		jQuery('#OACForm').html(form);
+    		document.forms['frmOAC'].prodid.value = id;
+    		jQuery('#oac_message').dialog("open");
+    	}
+    	function ContinueOAC() {
+    		TrackVirtualPage('/OnlineAccountCreation/Apply.aspx');
+    		TrackActionLabel('OAC', 'Continue', selectedProduct);
+    		setTimeout(SubmitToOAC, 500);
+    	}
+    	function SubmitToOAC() {
+    		document.forms['frmOAC'].submit();
+    		trackCloseAction = false;
+    		jQuery('#oac_message').dialog("close");
+    	}
+    	function CancelOAC() {
+    		if (trackCloseAction) {
+    			TrackActionLabel('OAC', 'Close', selectedProduct);
+    		}
+    		trackCloseAction = true;
+    	}
+</script>
+
+
+                </div>
+                <div id="footer">
+                    <ul class="footer_details clearfix">
+                        <li>
+                            <h4 class="footer_details_header">
+                                Security</h4>
+                            <ul class="footer_sub">
+                                <li><a href="/InformationSecurity/Default.aspx" onclick="TrackAction('Footer Navigation', 'Information Security');">
+                                    Information Security</a></li>
+                                <li><a href="/InformationSecurity/OnlineResources.aspx" onclick="TrackAction('Footer Navigation', 'Online Resources');">
+                                    Online Resources</a></li>
+                                <li><a href="/InformationSecurity/SecurityMeasures.aspx" onclick="TrackAction('Footer Navigation', 'Security Measures');">
+                                    Security Measures</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4 class="footer_details_header">
+                                Tools</h4>
+                            <ul class="footer_sub">
+                                <li><a href="/Tools/Calculators.aspx" onclick="TrackAction('Footer Navigation', 'Calculators');">
+                                    Calculators</a></li>
+                                <li><a href="/Tools/Glossary.aspx" onclick="TrackAction('Footer Navigation', 'Glossary');">
+                                    Glossary</a></li>
+                                <li><a href="/Tools/FAQs.aspx" onclick="TrackAction('Footer Navigation', 'FAQs');">FAQs</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4 class="footer_details_header">
+                                Contact Us</h4>
+                            <ul class="footer_sub">
+                                <li><a href="javascript:void(0);" id="lnkLocateUsFooter" onclick="TrackAction('Footer Navigation', 'Locate Us');">
+                                    Locate Us</a></li>
+                                <li>
+                                    <a href="/InsideMidFirst/ContactUs.aspx" onclick="TrackAction('Footer Navigation', 'Phone/Email');" id="ctl00_lnkContactFooter">Contact Us</a>
+                                </li>
+                                <li><a href="/CareerCenter/" onclick="TrackAction('Footer Navigation', 'Career Center');">
+                                    Career Center</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4 class="footer_details_header">
+                                Why MidFirst</h4>
+                            <ul class="footer_sub">
+                                <li><a href="/InsideMidFirst/Sustainability.aspx" onclick="TrackAction('Footer Navigation', 'Sustainability');">
+                                    Sustainability</a></li>
+                                <li><a href="/InsideMidFirst/AboutUs.aspx" onclick="TrackAction('Footer Navigation', 'About Us');">
+                                    About Us</a></li>
+                                <li>
+                                    <a href="/InsideMidFirst/WhyMidFirst.aspx" onclick="TrackAction('Footer Navigation', 'Why MidFirst');" id="ctl00_lnkFooterWhyMidFirst">Why MidFirst</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="updates_wrap">
+                            <div id="updates_copy">
+                                <h4>
+                                    Receive important information and updates</h4>
+                                <p>
+                                    <a href="javascript:void(0);" id="lnkEmaiLearnMore" onclick="TrackAction('Footer Navigation', 'Email Updates Learn More');">
+                                        Learn More.</a></p>
+                            </div>
+                            <div class="updates_form">
+                                <div id="ctl00_pnlUpdateSignUp">
+	
+                                    <p>
+                                        <input name="ctl00$txtNewsLetterEmail" type="text" maxlength="50" id="ctl00_txtNewsLetterEmail" class="newsletter" onkeydown="NewsletterKeydown(event);" />
+                                        <input type="submit" name="ctl00$btnNewsletterSignUp" value="Sign Up" onclick="NewsletterSignup(); return false;" id="ctl00_btnNewsletterSignUp" class="submit newsletter_submit" /></p>                                  
+                                
+</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="signoff">
+            <li>
+                <p>
+                    Copyright &copy;
+                    2011
+                    MidFirst Bank. All rights reserved.</p>
+            </li>
+            <li><a href="/InsideMidFirst/InformationDisclosure.aspx" onclick="javascript:TrackAction('Footer Navigation', 'Information Disclosure');">
+                Information Disclosure</a></li>
+            <li><a href="/InsideMidFirst/TermsofUse.aspx" onclick="javascript:TrackAction('Footer Navigation', 'Terms of Use');">
+                Terms of Use</a></li>
+            <li><a href="/InsideMidFirst/PrivacyPolicy.aspx" onclick="javascript:TrackAction('Footer Navigation', 'Online Privacy Policy');">
+               Online Privacy Policy</a></li>
+			    <li><a href="/PrivacyNotice/" target="_blank" onclick="javascript:TrackAction('Footer Navigation', 'Privacy Notice');">
+               Privacy Notice</a></li>
+            
+        </ul>
+        
+        <div id="divDemos" style="display: none; overflow: hidden;">
+		
+  <table cellspacing="3">
+                <tr>
+                    <td style="padding-top: 10px;">
+                        Personal Banking
+                    </td>
+                    <td style="padding-left: 18px;padding-top: 10px;">
+                        Business Banking
+                    </td>
+                </tr>
+                <tr>
+                    <td>					 
+					 <div id="ctl00_ctl10_ddlPersonalBankingDemos" class="RadComboBox RadComboBox_MidFirst" style="width:170px;display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline;margin-left:-1px;margin-right:-1px;white-space:normal;">
+	<table cellpadding="0" cellspacing="0" summary="combobox" border="0" style="border-width:0;">
+		<tr class="rcbReadOnly">
+			<td class="rcbInputCell rcbInputCellLeft" style="width:100%;"><input name="ctl00$ctl10$ddlPersonalBankingDemos" type="text" class="rcbInput" id="ctl00_ctl10_ddlPersonalBankingDemos_Input" value="Please Choose..." readonly="readonly" tabindex="-1" /></td><td class="rcbArrowCell rcbArrowCellRight"><a id="ctl00_ctl10_ddlPersonalBankingDemos_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>
+		</tr>
+	</table><div class="rcbSlide" style="z-index:6000;"><div id="ctl00_ctl10_ddlPersonalBankingDemos_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_MidFirst " style="display:none;"><div class="rcbScroll rcbWidth" style="height:85px;width:100%;"><ul class="rcbList" style="list-style:none;margin:0;padding:0;zoom:1;"><li class="rcbItem ">Please Choose...</li><li class="rcbItem ">iManage Personal Banking</li><li class="rcbItem ">Mobile Banking</li></ul></div></div></div><input id="ctl00_ctl10_ddlPersonalBankingDemos_ClientState" name="ctl00_ctl10_ddlPersonalBankingDemos_ClientState" type="hidden" />
+</div>                   
+                    </td>
+                    <td style="padding-left: 18px;">					 
+					  <div id="ctl00_ctl10_ddlBusinessBankingDemos" class="RadComboBox RadComboBox_MidFirst" style="width:170px;display:-moz-inline-stack;display:inline-block;zoom:1;*display:inline;margin-left:-1px;margin-right:-1px;white-space:normal;">
+	<table cellpadding="0" cellspacing="0" summary="combobox" border="0" style="border-width:0;">
+		<tr class="rcbReadOnly">
+			<td class="rcbInputCell rcbInputCellLeft" style="width:100%;"><input name="ctl00$ctl10$ddlBusinessBankingDemos" type="text" class="rcbInput" id="ctl00_ctl10_ddlBusinessBankingDemos_Input" value="Please Choose..." readonly="readonly" tabindex="-1" /></td><td class="rcbArrowCell rcbArrowCellRight"><a id="ctl00_ctl10_ddlBusinessBankingDemos_Arrow" style="overflow: hidden;display: block;position: relative;outline: none;">select</a></td>
+		</tr>
+	</table><div class="rcbSlide" style="z-index:6000;"><div id="ctl00_ctl10_ddlBusinessBankingDemos_DropDown" class="RadComboBoxDropDown RadComboBoxDropDown_MidFirst " style="display:none;"><div class="rcbScroll rcbWidth" style="height:85px;width:100%;"><ul class="rcbList" style="list-style:none;margin:0;padding:0;zoom:1;"><li class="rcbItem ">Please Choose...</li><li class="rcbItem ">iManage Business Express</li><li class="rcbItem ">iManage Business Banking</li><li class="rcbItem ">Remote Deposit</li></ul></div></div></div><input id="ctl00_ctl10_ddlBusinessBankingDemos_ClientState" name="ctl00_ctl10_ddlBusinessBankingDemos_ClientState" type="hidden" />
+</div>                   
+                    </td>
+                </tr> 				                           
+            </table>       
+        </div>
+        <div id="divForgotpasscontent" style="display: none; overflow: hidden;">
+            <ul class="arrow_list">
+                <li class="arrow_list_detail" style="margin-bottom: 5px;"><b>iManage Personal Banking</b>
+                    – please call the MidFirst MoneyLine at 888.MIDFIRST (888.643.3477), option 6.
+                </li>
+                <li class="arrow_list_detail" style="margin-bottom: 5px;"><b>iManage Business Banking</b>
+                    – please call Treasury Management support at 877.516.2777. </li>
+                <li class="arrow_list_detail" style="margin-bottom: 5px;"><b>Treasury Management Services</b>
+                    – please call Treasury Management support at 877.516.2777. </li>
+                <li class="arrow_list_detail" style="margin-bottom: 5px;"><b>Virtual Cash</b> – please
+                    call 866.952.3796. </li>
+                <li class="arrow_list_detail" style="margin-bottom: 5px;"><b>Portfolio Online</b> –
+                    please call 405.767.7388. </li>
+                <li class="arrow_list_detail" style="margin-bottom: 5px;"><b>MidFirst Investment Services</b>
+                    <p>
+                        For password support with your MidFirst Investment services account, please contact
+                        your Investment Executive.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div id="divEmailInfo" style="display: none; overflow: hidden;">
+            <h4>
+                Sign up for email from MidFirst and receive:</h4>
+            <ul class="arrow_list">
+                <li class="arrow_list_detail">Special Offers</li>
+                <li class="arrow_list_detail">Information on New Products & Services</li>
+                <li class="arrow_list_detail">Email Alerts About Fraud or Scams</li>
+                <li class="arrow_list_detail">Updates on System Improvements or Changes</li>
+            </ul>
+        </div>
+        <div id="location_popup" style="display: none;">
+            <div id="ctl00_pnlSearchLocations2" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_btnSearchLocations')" style="text-align:center;">
+	
+                <label id="lblLatLngSearchError2" class="ErrorRequired" style="visibility: hidden;
+                    margin-top: 10px;">
+                    Invalid Address Provided</label><br />
+                <input name="ctl00$txtAddress" type="text" maxlength="40" id="ctl00_txtAddress" class="Watermark location" style="width:200px;" />
+                <input type="submit" name="ctl00$btnSearchLocations" value="GO" onclick="javascript:loadMaps(); return false;" id="ctl00_btnSearchLocations" class="submit location_submit" />              
+            
+</div>
+        </div>
+        <input type="hidden" name="ctl00$hdnServer" id="ctl00_hdnServer" value="3" />
+		 <input type="hidden" name="ctl00$hdnTimeRendered" id="ctl00_hdnTimeRendered" value="2/14/2011 2:12:52 PM" />
+
+
+
+</form>
+    </div>
+    <div id="SLAPIform"></div>
+    <div id="OACForm"></div>
+</body>
+</html>

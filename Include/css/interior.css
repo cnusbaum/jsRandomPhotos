@@ -1,0 +1,1522 @@
+select{font-size: 11px;}
+div.page_details{
+	display: block;
+	width: 669px;
+	margin: 15px auto;
+}
+h2.page_title{
+	font-size: 18px;
+	font-weight: bold;
+	color: #f60;
+	margin-bottom: 5px;
+}
+.Grid
+{
+	MARGIN-LEFT: 15px; 
+	FONT: 12px "Lucina Grande", "Arial", sans-serif;
+}
+.GridHeader th
+{
+	color: #696a6c; 	
+ 	 font-weight:bold; 
+ 	  padding-top: 6px !important;
+	 padding-bottom: 6px !important;
+}
+.GridHeaderDescription
+{
+ padding-left:10px;		 
+}
+.GridCellNoPadding
+{
+	color: #696a6c; 		 
+}
+.GridCellCurrency
+{
+	padding-right:50px !important; 		  
+}
+.GridCellIntRate
+{
+	padding-right:60px !important; 		  
+}
+.GridCellApy
+{
+	padding-right:60px !important; 		  
+}
+.GridCell td
+{
+	color: #696a6c; 	
+	 padding-left:20px; 
+	 padding-top: 6px !important;
+	 padding-bottom: 6px !important;
+	  background-color:#dddddc; 	 
+}
+.GridCellAlt td
+{
+	color: #696a6c;	
+	  padding-left:20px; 
+	 padding-top: 6px !important;
+	 padding-bottom: 6px !important; 
+}
+div.show_hide{
+	display: block;
+	width: 669px;
+	text-align: right;
+	color: #565759;
+}
+div.callout{
+	display: block;
+	width: 669px;	
+	margin: 20px auto;
+}
+h3.callout_title{
+	display: block;
+	width: 659px;
+	height: 15px;
+	padding: 7px 0 7px 10px;
+	margin: 0 0 10px 0;
+	background: #747477;
+	border-top: 1px solid #ee7c22;
+	color: #fff;
+	position: relative;
+}
+
+a.toggle_show_hide{
+	display: inline-block;
+	width: 81px;
+	height: 20px;
+	background: transparent url(http://www.midfirstbank.com/Images/Global/icon_arrow_down.gif) no-repeat scroll right 5px;
+	margin: 8px 0;
+	text-transform:  lowercase;
+}
+a.toggle_show_hide_contact_information{
+	display: inline-block;
+	width: 160px;
+	height: 20px;
+	background: transparent url(http://www.midfirstbank.com/images/Global/icon_arrow_down.gif) no-repeat scroll right 5px;
+	margin: 8px 0;
+	text-transform: lowercase;
+}
+a.toggle_hide_contact_information{
+	display: inline-block;
+	width: 150px;
+	height: 20px;
+	background: transparent url(http://www.midfirstbank.com/images/Global/icon_arrow_up.gif) no-repeat scroll right 5px;
+	margin: 8px 0;
+	text-transform: lowercase;
+}
+a.toggle_show_hide_disclosure{
+	display: inline-block;
+	width: 107px;
+	height: 20px;
+	background: transparent url(http://www.midfirstbank.com/images/Global/icon_arrow_down.gif) no-repeat scroll right 5px;
+	margin: 8px 0;
+	text-transform: lowercase;
+}
+a.toggle_hide_disclosure{
+	display: inline-block;
+	width: 107px;
+	height: 20px;
+	background: transparent url(http://www.midfirstbank.com/images/Global/icon_arrow_up.gif) no-repeat scroll right 5px;
+	margin: 8px 0;
+	text-transform: lowercase;
+}
+a.toggle_hide{
+	display: inline-block;
+	width: 81px;
+	height: 20px;
+	background: transparent url(http://www.midfirstbank.com/Images/Global/icon_arrow_up.gif) no-repeat scroll right 5px;
+	margin: 8px 0;
+	text-transform: lowercase;
+}
+div.callout_details_head{
+	display: block;
+	width: 669px;
+	height: 11px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_callout_header.jpg) no-repeat;
+	font-size: 1px;
+}
+div.callout_details{
+	display: block;
+	width: 669px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_callout_body.jpg) repeat-y;
+	color: #696A6C;	
+}
+div.callout_details_footer{
+	display: block;
+	width: 669px;
+	height: 10px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_callout_footer.jpg) no-repeat;
+}
+div.account_type, div.security_type{
+	margin: 0 auto;
+	width: 653px;
+}
+div.account_type_details{
+	display: block;
+	width: 480px;
+	padding: 0 8px;
+	position: relative;
+	float: left;
+}
+
+div.news_body_details
+{
+	display: block;
+	width: 490px;
+	padding: 0 2px 0 8px;
+	position: relative;
+	float: left;
+}
+div.security_type_details{
+	display: block;
+	width: 580px;
+	padding: 0 8px;
+	position: relative;
+	float: left;
+}
+div.account_type_details_full{
+	display: block;
+	width: 540px;
+	padding: 0 8px;
+	position: relative;
+	float: left;
+}
+
+div.account_type_details_center{
+	display: block;
+	width: 580px;
+	padding: 0 8px;
+	position: relative;
+	float: left;
+	text-align:center;
+}
+div.account_type_tools{
+	display: block;
+	width: 147px;
+	float: left;
+}
+ul.account_terms{
+	list-style-type: none;
+	margin: 15px 0 0;
+	padding: 0;
+	text-indent: 0;
+}
+ul.account_terms_detail_single
+{	
+	list-style-type: none;
+	margin: 2px 0 8px 0px;
+	padding: 0;
+	text-indent: 0;
+	width:600px;
+}
+h5.account_terms_title{
+	font-size: 12px;
+	color: #696a6c;
+	margin: 0 8px 0 0;
+	padding: 0;
+	font-weight: bold;
+	float: left;
+}
+.unNormalize div.account_type_tools a.button_tools{
+	display: block;
+	width: 136px;
+	height: 16px;
+	padding: 4px 0 3px;
+	margin: 8px 0 0 8px;
+	background: #f79122 url(http://www.midfirstbank.com/Images/Global/bg_search_submit.gif) repeat-x;
+	text-align: center;
+	border: 1px solid #f78f1e;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	text-decoration: none;
+}
+a.action_button{
+	display: block;
+	width: 156px;
+	height: 16px;
+	padding: 4px 0 3px;	
+	background: #f79122 url(http://www.midfirstbank.com/Images/Global/bg_search_submit.gif) repeat-x;
+	text-align: center;
+	border: 1px solid #f78f1e;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+	text-decoration: none;
+}
+/* CONTACT MODULES */
+ul#contact_modules{
+	display: block;
+	width: 684px;
+	margin: 20px auto 0;
+}
+ul#contact_modules li{
+	display: block;
+	margin: 0;
+}
+li.contact_modules_shadow{
+	display: block;
+	width: 227px;
+	height: 195px;
+	float: left;
+	background: transparent url(http://www.midfirstbank.com/Images/Global/shadow_contact_module.gif) no-repeat;
+}
+div.contact_modules_detail{
+	display: block;
+	width: 213px;
+	height: 194px;
+	float: left;
+	background: #e8e7e5 url(http://www.midfirstbank.com/Images/Global/bg_contact_modules.gif) repeat-x;
+	position: relative;
+	left: 5px;
+	top: 5px;
+	border-left: 1px solid #efefed;
+	border-right: 1px solid #efefed;
+	border-bottom: 1px solid #efefed;
+}
+li.contact_modules_xsale{
+	display: block;
+	width: 174px;
+	height: 187px;
+	padding-top: 5px;
+	text-align: center;
+	border: 1px solid #D2D1CD;
+	float: left;
+}
+ul#contact_modules li#last{
+	margin-right: 0;
+}
+h3.contact_modules_header{
+	display: block;
+	width: 192px;
+	height: 20px;
+	margin-bottom: 15px;
+	padding: 6px 0 0 25px;
+	position: relative;
+	left: -1px;
+	color: #fff;
+	background: #87878a;
+	border-top: 1px solid #f60;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+ul.contact_modules_detail_sub li{
+	display: block;
+	width: 195px;
+	position: relative;
+	left: 15px;
+	padding: 0;
+	margin: 0;
+	color: #8f8e8b;
+}
+ul#contact_modules li ul.contact_modules_detail_sub li{
+	display: list-item;
+	width: 171px;
+	margin: 8px 0 8px 35px;
+	padding: 0;
+	text-indent: 0;
+	position: relative;
+	left: -11px;
+	border: none;
+}
+ul#contact_modules p{
+	width: inherit;
+}
+ul#contact_modules li ul.contact_modules_detail_sub li a{
+	color: #f60;
+}
+ul#contact_modules li ul.contact_modules_detail_sub li a{
+	color: #f60;
+}
+ul#contact_modules li ul.contact_modules_detail_sub li.contact_address{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/* END CONTACT MODULES */
+ul#contact_modules li ul.contact_modules_detail_sub li a.contact_email{
+	display: block;
+	width: 117px;
+	border:1px solid #f78f1e;
+	padding: 6px 0;
+	background: #f78f1e url(http://www.midfirstbank.com/Images/Global/bg_search_submit.gif) repeat-x scroll 0 0;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+/* CONTACT INFO */
+ul.contact_info{
+	display: block;
+	width: 650px;
+	margin: 0 auto;
+}
+ul.contact_details li{
+	display: block;
+	padding: 6px 10px;
+	float: left;
+	color: #696a6c;
+}
+ul.contact_details a{
+	color: #f60;
+	font-weight: normal;
+	font-size: 12px;
+}
+ul.contact_details li.contact_name{
+	width: 222px;
+	font-weight: bold;
+}
+ul.contact_details li.contact_name_normal{
+	width: 222px;
+	
+}
+ul.contact_details li.contact_number{
+	width: 185px;
+}
+ul.contact_details li.contact_hours{
+	width: 195px;
+}
+ul.contact_details li.contact_title{
+	width: 280px;
+	font-weight: bold;
+}
+ul.contact_details li.contact_url{
+	width: 240px;
+}
+ul.contact_details li.contact_full{
+	width: 440px;
+}
+
+.stripe{
+	background: #dddddc;
+	 background-color:#dddddc;
+}
+.contact_number_nice{
+	font-size: 10px;
+}
+/* END CONTACT INFO */
+
+/* 3 COL GRID */
+ul.three_col_grid{
+	display: block;
+	width: 650px;
+	margin: 0 auto;
+}
+ul.three_col_grid_details li{
+	display: block;
+	padding: 6px 10px;
+	float: left;
+	color: #696a6c;
+}
+ul.three_col_grid_details a{
+	color: #f60;
+	font-weight: normal;
+	font-size: 12px;
+}
+ul.three_col_grid_details li.row_header{
+	width: 185px;
+	font-weight: bold;
+}
+ul.three_col_grid_details li.row_header_normal{
+	width: 185px;
+	
+}
+ul.three_col_grid_details li.col_header{
+	width: 185px;
+	font-weight: bold;
+	margin-left: 7px;
+	
+}
+ul.three_col_grid_details li.col_content{
+	width: 185px;
+}
+
+ul.three_col_grid_details li.row_filler{
+	width: 100%;
+}
+
+
+/* END 3 COL GRID  */
+
+
+/* 4 COL GRID */
+ul.four_col_grid{
+	display: block;
+	width: 650px;
+	margin: 0 auto;
+}
+ul.four_col_grid_details li{
+	display: block;
+	padding: 6px 10px;
+	float: left;
+	color: #696a6c;
+}
+ul.four_col_grid_details a{
+	color: #f60;
+	font-weight: normal;
+	font-size: 12px;
+}
+ul.four_col_grid_details li.row_header{
+	width: 120px;
+	font-weight: bold;
+}
+ul.four_col_grid_details li.row_header_normal{
+	width: 120px;
+	
+}
+ul.four_col_grid_details li.col_header{
+	width: 110px;
+	font-weight: bold;
+	margin-left: 10px;
+	
+}
+ul.four_col_grid_details li.col_header_5px{
+	width: 130px;
+	font-weight: bold;
+	margin-left: 5px;
+	
+}
+ul.four_col_grid_details li.col_header_2px{
+	width: 125px;
+	font-weight: bold;
+	margin-left: 2px;
+	
+}
+
+ul.four_col_grid_details li.col_header_wide{
+	width: 150px;
+	font-weight: bold;
+	margin-left: 25px;
+	
+}
+ul.four_col_grid_details li.col_content{
+	width: 120px;
+	margin-left: 10px;
+}
+
+ul.four_col_grid_details li.row_filler{
+	width: 100%;
+}
+
+
+/* END 4 COL GRID  */
+
+
+/* START VIRTUAL CARDS */
+ul.page_title_details{
+	color: #696A6C;
+	margin: 10px 0;
+	list-style-type: disc;
+	margin-left: 16px;
+}
+ul.page_title_details li{
+	margin: 5px 0;
+	
+}
+img.cash_cards{
+	display: block;
+	position: relative;
+	left: 400px;
+	top: -120px;
+	margin: 0 0 -110px;
+}
+a.card_sign_up{
+	display: block;	
+	margin: 15px auto;
+	border:1px solid #F78F1E;
+	padding: 6px 0;
+	background: #f78f1e url(http://www.midfirstbank.com/Images/Global/bg_search_submit.gif) repeat-x scroll 0 0;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	color: #fff;
+	text-transform: none;
+	text-align: center;
+	text-decoration: none;
+	width:320px;
+}
+ul.zebra_list{
+	display: block;
+	margin: 0 auto;
+	width: 648px;
+}
+ul.zebra_list li
+{
+	display: block;
+	padding: 6px 10px !important;
+	padding: 6px 6px 6px 2px;
+	color: #696a6c;
+}
+p.callout_subcopy{
+	margin: 10px 0;
+	color: #696A6C;
+	font-size: 11px;
+}
+a.virtual_cash_links{
+	display: block;
+	padding: 0 0 0 7px;
+	background: url(http://www.midfirstbank.com/Images/Global/sign_in_sub_li.gif) no-repeat 0 4px;
+	color: #f60;
+}
+/* END VIRTUAL CARDS */
+
+a.link_board
+{
+display: block;
+	padding: 0 0 0 7px;
+	background: url(http://www.midfirstbank.com/Images/Global/sign_in_sub_li.gif) no-repeat 0 4px;
+	color: #f60;
+}
+
+/* START LOCATION */
+div.map_wrap{
+	display: block;
+	width: 689px;
+	margin: 0 auto;	 
+}
+div.map{
+	display: block;
+	width: 488px;
+	height: 397px;
+	float: left;
+	margin-left:11px;
+}
+div.mapdetailspage{
+	display: block;
+	width: 500px;
+	height: 403px;
+	float: left;	
+}
+div.map_sub{
+	display: block;
+	width: 189px;
+	float: left;
+	color: #696A6C;
+	font-size: 11px;
+}
+div.map_sub ul{
+	display: block;
+}
+div.map_sub ul li{
+	margin: 5px 0;
+}
+div.map_sub label{
+	display: block;
+	width: 125px;
+	line-height: 13px;
+	float: right;
+}
+input.filter_flag{
+	display: block;
+	height: 13px;
+	width: 13px;
+	margin:0; 
+    margin-top:13px;
+}
+input.map_sub_submit{
+	margin: 10px 0 0;
+	position: relative;
+	left: 100px;
+}
+input.quick_find_zip{	
+	width: 150px;	
+	height: 16px;
+}
+div.sub_map_head{
+	display: block;
+	width: 177px;
+	height: 9px;
+	font-size: 1px;
+	margin: 0 auto;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_header.gif) no-repeat;
+}
+div.sub_map_footer
+{
+	background-position: url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_footer.gif) no-repeat;
+	display: block;
+	width: 177px;
+	height: 8px;
+	margin: 0 auto 10px auto;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_footer.gif) no-repeat;
+}
+div.quick_find, div.map_filter{
+	display: block;
+	width: 153px;
+	padding: 2px 12px;
+	margin: 0 auto;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_body.gif) repeat-y;
+}
+div.map_sub label.title_zip{
+	float: none;
+	margin-bottom: 3px;
+}
+.map_legend{
+	display: block;
+	margin-top: 5px;
+}
+div#content_main .map_legend p{
+	display: block;
+	width: 145px;
+	margin: 3px 8px 3px 0;
+	float: left;
+	text-align: right;
+	color: #87878a;
+}
+ul.location_info{
+	display: block;
+	width: 650px;
+	margin: 0 auto;
+}
+li.location_order
+{	display: block;
+	width: 2px;	
+	float: left;
+}
+li.location_streets{
+	display: block;
+	width: 140px;
+	float: left;
+}
+li.location_address{
+	display: block;
+	width: 150px;
+	float: left;
+}
+li.location_phone{
+	display: block;
+	width: 80px;
+	float: left;
+}
+li.location_link{
+	display: block;
+	width: 30px;
+	float: left;
+}
+li.location_link a{
+	color: #f60;
+}
+li.location_link a:hover{
+	color: #ff7e00;
+}
+li.location_services{
+	display: block;
+	width: 120px;
+	float: left;
+	text-align: center;
+}
+li.location_services ul li{
+	float: left;
+	padding: 0 !important;
+	text-indent: -9999px;
+}
+.location_branch{
+	display: block;
+	width: 16px;
+	height: 14px;
+	margin-left: 5px;	
+	background: url(http://www.midfirstbank.com/Images/Maps/icon_services.png) no-repeat;
+	float: left;
+}
+.location_atm{
+	display: block;
+	width: 9px;
+	height: 14px;
+	margin-left: 5px;	
+	background: url(http://www.midfirstbank.com/Images/Maps/icon_services.png) no-repeat -21px 0;
+	float: left;
+}
+.location_extended{
+	display: block;
+	width: 15px;
+	height: 14px;
+	margin-left: 5px;	
+	background: url(http://www.midfirstbank.com/Images/Maps/icon_services.png) no-repeat -36px 0;
+	float: left;
+}
+.location_drivethru{
+	display: block;
+	width: 18px;
+	height: 14px;
+	margin-left: 5px;	
+	background: url(http://www.midfirstbank.com/Images/Maps/icon_services.png) no-repeat -99px 0;
+	float: left;
+}
+.location_nightdeposit{
+	display: block;
+	width: 17px;
+	height: 14px;
+	margin-left: 5px;	
+	background: url(http://www.midfirstbank.com/Images/Maps/icon_services.png) no-repeat -77px 0;
+	float: left;
+}
+.location_coincounter{
+	display: block;
+	margin-left: 4px;
+	width: 12px;
+	height: 14px;		
+	background: url(http://www.midfirstbank.com/Images/Maps/icon_services.png) no-repeat -58px 0;
+	float: left;
+}
+li.location_selected{
+	border: 1px solid orange;
+}
+/* END LOCATION */
+/* START LOCATION DETAIL */
+img.branch_thumb{
+	display: block;
+	width: 171px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 3px;
+	border: 1px solid #D2D1CD;
+	opacity: .6 !important;
+}
+img.branch_thumb:hover{
+	cursor: pointer;
+	opacity: 1 !important;
+}
+ul.address_details, ul.phone_details, ul.employee_info
+{
+	display: block;
+	margin: 0px 0 10px 0;
+}
+div.map_sub ul.address_details li, div.map_sub ul.phone_details li, div.map_sub ul.employee_info li{
+	display: block;
+	margin: 2px 0;
+}
+div.branch_details{
+	display: block;
+	width: 689px;
+	margin: 0 auto;
+	 margin-bottom:25px;
+}
+div.hours_wrap{
+	float: left;
+	margin-left: 12px;
+}
+ul.callout_hour
+{
+	 margin-left:25px;
+}	
+h3.callout_hours_title{
+	display: block;
+	width: 478px;
+	height:15px;
+	margin:25px 0 10px;
+	padding:7px 0 7px 10px;
+	background:#747477 none repeat scroll 0 0;
+	border-top:1px solid #EE7C22;
+	color:#FFFFFF;
+	position:relative;
+}
+div.callout_hours_header{
+/*	background:transparent url(/Images/Global/bg_callout_hours_header.gif) no-repeat scroll 0 0;*/
+	display:block;
+	font-size:1px;
+	height:7px;
+	width: 488px;
+} 
+div.callout_hours_footer{
+	/*background:transparent url(/Images/Global/bg_callout_hours_footer.gif) no-repeat scroll 0 0;*/
+	display:block;
+	font-size:1px;
+	height:8px;
+	width: 488px;
+}
+ul.callout_hours{
+	display:block;
+	width:480px;
+	padding: 0 10px;
+	/*background:transparent url(/Images/Global/bg_callout_hours_body.gif) repeat-y scroll 0 0;*/
+	color:#696A6C;
+}
+ul.callout_hours li h4{
+	display: inline-block;
+	margin: 17px 0 0 10px;
+}
+li.callout_hours_details{
+	display: block;
+}
+li.callout_hours_days, li.callout_hours_open, li.callout_hours_close{
+	display: block;
+	width: 80px;
+	margin: 4px 0 4px 18px;
+	float: left;
+	 text-align:right;
+}
+div.branch_services{
+	display: block;
+	width: 153px;
+	padding: 6px 0;
+	margin: 19px 0 0 8px;
+	float: left;
+}
+div.branch_services_head{
+	background:transparent url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_header.gif) no-repeat scroll 0 0;
+	display:block;
+	font-size:1px;
+	height:9px;
+	margin:0 auto;
+	width:177px;
+}
+div.branch_services_footer{
+	background:transparent url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_footer.gif) no-repeat scroll 0 0;
+	display:block;
+	font-size:1px;
+	height:9px;
+	margin:0 auto;
+	width:177px;
+}
+ul.branch_services{
+	display: block;
+	width: 153px;
+	padding: 6px 12px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_body.gif) repeat-y;
+	color: #696A6C;
+}
+h4.callout_services_title{
+	display: inline-block;
+	margin: 2px 0 6px;
+}
+li.callout_services_details{
+	display: inline-block;
+	margin: 2px 0;
+}
+div.branch_news{
+	display: inline-block;
+	width: 500px;
+	float: none;
+	clear: both;
+	margin: 20px 0;
+	color: #696A6C;
+}
+div#content_main div.branch_news p{
+	display: block;
+	width: 500px;
+}
+div#content_main div.page_details p{
+	display: block;
+	color: #696a6c;
+	margin-bottom: 5px;
+}
+
+h2.events_header{
+	display: block;
+	width:490px;
+	height:15px;
+	margin: 9px 0;
+	padding:7px 0 7px 10px;
+	position:relative;
+	background:#747477 none repeat scroll 0 0;
+	border-top:1px solid #EE7C22;
+	color: #fff;
+}
+li.events_details{
+	display: block;
+	margin: 25px 0 0;
+}
+li.events_details h3{
+	display: block;
+	margin: 7px 0;
+	font-size: 14px;
+}
+li.events_details ul li, li.events_details ol li{
+	list-style-type: disc;
+	margin: 5px 0 5px 25px;
+}
+/* END LOCATION DETAIL */
+/* START NEWS */
+div.news_wrap{
+	display: block;
+	width: 669px;
+	margin: 0 auto;
+	color: #696A6C;
+}
+div.news_blurb{
+	border-bottom: 1px solid #696A6C;
+	padding:  20px 0 10px;
+	margin: 0 0 20px 0;
+}
+h3.news_title a
+{
+	background-position: 0 5px;
+	display: block;
+	margin: 8px 0 3px 0px;
+	color: #f60;
+	font-size: 14px;
+	text-decoration: underline;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_news_header.gif) no-repeat 0 5px;
+	padding: 0 0 0 10px;
+}
+h3.news_title a:hover{
+	text-decoration: none;
+}
+a.news_read_more{
+	font-size: 10px;
+}
+a.news_detail{
+	display: block;
+	margin: 7px 0;
+}
+div#content_main div.news_wrap p.news_date
+{
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 8px 10px;
+}
+div#content_main p.news_date
+{
+	margin-left:10px;
+}
+div#content_main div.news_body
+{
+	margin-left:10px;
+}
+
+
+div.news_nav{
+	display: block;
+	width: 669px;
+	margin: 15px 0 20px;
+}
+span.news_nav_next{
+	float: right;
+}
+/* END NEWS */
+/* START SECURITY STYLES */
+div#content_main div.security_sub p{
+	display: inline-block;
+	margin: 6px 0;
+	color: #696A6C;
+}
+div#content_main div.security_sub a{
+	color: #f60;
+}
+div#content_main div.security_sub a:hover{
+	color: #F78F1E;
+}
+/* END SECURITY STYLES */
+/* START PROFILE STYLES */
+img.profile_picture{
+	display: block;
+	
+	height: 122px; 
+	margin: 0 15px 10px 15px;
+	float: left;
+}
+div.profile_info{
+	padding: 10px 0;
+}
+div.profile_info ul{
+	display: block;
+	width: 500px;
+	margin: 0 0 10px 20px;
+	list-style-type: none;
+	font-size: 11px;
+}
+div.profile_info ul li{
+	margin: 0 0 3px 0;
+}
+li.profile_name{
+	margin: 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+div.profile_details ul 
+{
+	margin-left:0;
+	 width: 500;
+	
+	
+	}
+	
+	div.profile_details_no_pic ul 
+{
+ margin-left:20;
+	
+	
+	}
+/* END PROFILE STYLES */
+/* START VIDEO STYLES */
+div.video{
+	display: block;
+	width: 652px;
+	margin:  10 10 10 0;
+	z-index:-999;
+	
+}
+/* END VIDEO STYLES */
+/* START CARD LANDING STYLES */
+ul.cards_options {
+	display: block;
+	width: 667px;
+	margin: 0 auto;
+}
+ul.cards_options li{
+	float: left;
+	margin: 8px 35px 8px 0;
+	position: relative;
+}
+h4.card_landing_title a{
+	display: block;
+	width: 306px;
+	height: 13px;
+	margin: 0 0 14px 0;
+	padding:7px 0 7px 10px;
+	background:#747477;
+	border-top:1px solid #EE7C22;
+	color: #fff;
+	text-decoration: none;
+}
+img.cards_icons{
+	position: relative;
+	top: -30px;
+	left: -15px;
+	float: left;
+	margin-bottom: -30px;
+}
+div.card_landing_header{
+	display: block;
+	width: 316px;
+	height: 6px;
+	font-size: 1px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_header.gif) no-repeat;
+}
+div.card_landing_body{
+	display: block;
+	display: block;
+	width: 316px;
+	padding: 16px 0;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_body.gif) repeat-y;
+}
+div#content_main div.card_landing_body p{
+	display: block;
+	width: 175px;
+	margin: 0 0 4px 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #87878a;
+	float: left;
+}
+div.card_landing_body a{
+	color: #f60;
+	font-weight: bold;
+	margin: 0 5px 0 0;
+	float: left;
+}
+div.card_landing_footer{
+	display: block;
+	width: 316px;
+	height: 8px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_footer.gif) no-repeat;
+}
+/* END CARD LANDING STYLES */
+/* START COMPARISON STYLES */
+table.comparison_details {
+	display: block;
+	width: 669px;
+	margin: 0;
+	color: #f60;
+}
+table.comparison_details td{
+	padding: 7px;
+	font-size: 10px;
+	text-align: center;
+	border-bottom: 1px solid #696a6c;
+}
+table.comparison_details td.comparison_criteria_head{
+	padding: 5px 14px 5px 0;
+	background: #dfdfdf;
+	color: #696a6c;
+	font-weight: bold;
+	text-align: right;
+}
+td.comparison_table_header{
+	color:#696A6C;
+	font-weight:bold;
+}
+div.footnote{
+	display: block;
+	width: 669px;
+	margin: 10px auto 40px;
+	text-align: center;
+	font-style: italic;
+}
+/* END COMPARISON STYLES */
+/* START SEARCH RESULTS STYLES */
+div.search_again_module{
+    display: block;
+    width: 600px;
+    margin: 0;
+    padding: 10px 0 10px 30px;
+}
+div.search_header{
+    display: block;
+    width: 500px;
+    margin: 0 0 0 30px;
+    padding: 10px 0 0;
+}
+div#content_main div.page_details div.search_header p{
+	display: block;
+	width: 500px;
+}
+div.results_output
+{
+	display: block;
+	margin: 20px 0 20px 0;
+	border-bottom: 1px solid #696A6C;
+	padding-bottom: 20px;
+}
+div.result_title a{
+	font-size: 14px;
+	color: #f60;
+	font-weight: bold;
+	margin: 5px 0;
+	display: block;
+}
+div.results_output a{
+	color: #f60;
+}
+div.result_description{
+	display: block;
+	color: #696A6C;
+	margin: 7px 0;
+}
+div.search_pagination{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+div.search_pagination a{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 6px;
+    color: #f60;
+    text-decoration: none;
+}
+div.search_pagination a:hover{
+    text-decoration: underline;
+}
+
+div.search_pagination a.selected
+{
+	display:inline-block;
+	margin:0 5px;
+	padding:6px;
+}
+a.similar, a.cached{
+	color: #696A6C;
+}
+/* END SEARCH RESULTS STYLES */
+/* START FAQ STYLES */
+h4.faq_landing_question
+{
+	 margin-left: 20px;
+}
+div.faq_search{
+	display: block;
+	width: 625px;
+	height: 26px;
+	padding: 22px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_faq_search.gif) no-repeat;
+}
+div.show_hide_wrapper{
+    color:#FFFFFF;
+    display:block;
+    margin:8px 0 -17px;
+    position:relative;
+    right:10px;
+    text-align:right;
+    top:-32px;
+}
+div.show_hide_wrapper a{
+    color: #fff;
+}
+div.faq_wrapper{
+    display: block;
+    width: 648px;
+    margin: 0 auto;
+    padding: 0;
+}
+div.faq_wrapper h4{
+    padding: 8px 0;
+}
+h4.faq_landing_question{
+    margin-left: 20px;
+}
+
+div.faq_wrapper .question_landing h4 a{
+	display: block;
+	width: 600px;
+	padding: 8px 0 8px 50px;
+	background: #dddddc;
+	color: #696A6C;
+}
+
+div.faq_wrapper .question_detail h4 a
+{
+	display: block;
+	width:  590px! important;
+	padding: 8px 5px 8px 50px;
+	background: #dddddc;
+	color: #696A6C;
+}
+div.faq_wrapper h4 a{
+    display: block;
+    font-size: 12px;
+    color: #696a6c;
+    background:transparent url(http://www.midfirstbank.com/Images/Global/sign_in_sub_li.gif) no-repeat scroll left 4px;
+    padding-left: 30px;
+     text-indent:-15px;
+    width: 590px;
+}/*
+div.faq_wrapper h4 a:visited{
+   color: #696a6c;
+}*/
+div.faq_wrapper h4 a:hover{
+   color: #f78f1e;
+}
+div.faq_wrapper div.question{
+    display: none;
+    margin-left:0;
+    padding-bottom:20px;
+}
+div#content_main div.question p{
+    margin: 0 0 5px 0;
+    float:left;
+    padding:0;
+    width:570px;
+}
+h4.faq_category_title{
+    margin-left: 30px;
+}
+div#content_main div.question_sub
+{
+	display: none;
+	margin: 5px 0 5px 29px;
+	padding: 0 0 0 23px;
+	width: 578px;
+}
+div#content_main div.question_sub p.ablock {
+    display:block;
+    float:left;
+    margin-left:-15px !important;
+    margin-left: -5px;
+    width: 5px;
+}
+div#content_main div.question_landing p.ablock{
+    display:block;
+    float:left;
+    margin-left:-15px !important;
+    margin-left: -5px;
+    width: 5px;
+}
+div#content_main div.question_landing p.landing_answer{
+    width: 560px;
+    padding-right: 35px;
+    margin-bottom: 9px;
+    margin-left:-1px;
+}
+div.faq_wrapper div.question_landing{
+    display: none;
+    margin-left:0;
+    padding-bottom:5px; 
+     padding-left:51px;    
+}
+div.faq_wrapper div.question_detail{
+    display: none;
+    margin-left:0;
+    padding-bottom:5px;   
+}
+div#content_main div.question_detail p.ablock{
+    display:block;
+    float:left;
+    margin-left:-15px !important;
+    margin-left: -5px;
+    width: 5px;
+}
+div#content_main div.question_detail p.landing_answer{
+    width: 560px;
+    padding-right: 35px;
+    margin-bottom: 9px;
+      margin-left:-4px;
+}
+div#content_main div.question_sub p
+{
+	width: 546px;
+	margin: 0 0 5px -2px;
+	float: left;
+}
+
+div.faq_sections_wrap {
+    display: block;
+    width: 667px;
+    margin: 0 auto;
+}
+ul.faq_sections {
+    display: block;
+    width: 667px;
+    margin: 0 auto;
+}
+ul.faq_sections li{
+    float: left;
+    margin: 8px 35px 8px 0;
+    position: relative;
+}
+h4.faq_sections_title a{
+    display: block;
+    width: 306px;
+    height: 13px;
+    margin: 0 0 0 0;
+    padding:7px 0 7px 10px;
+    background:#747477;
+    border-top:1px solid #EE7C22;
+    color: #fff;
+    text-decoration: none;
+}
+
+img.faq_icons{
+    display: block;
+    width: 110px;
+    height: 98px;
+    position: relative;
+    left: 10px;
+    float: left;
+}
+div.faq_sections_header{
+    display: block;
+    width: 316px;
+    height: 6px;
+    background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_header.gif) no-repeat;
+}
+div.faq_sections_body{
+    display: block;
+    display: block;
+    width: 316px;
+    padding: 16px 0;
+    background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_body.gif) repeat-y;
+}
+div#content_main div.faq_sections_body p{
+    display: block;
+    width: 200px;
+    margin: 0 0 4px 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #87878a;
+    position: relative;
+    left: 30px;
+    float: left;
+}
+div.faq_sections_body a{
+    color: #f60;
+    font-weight: bold; 
+}
+div.faq_sections_footer{
+    display: block;
+    width: 316px;
+    height: 8px;
+    background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_footer.gif) no-repeat;
+}
+ul.faq_sections_links{
+    display: block;
+    width: 180px;
+    margin: 0 0 0 26px;
+    float: left;
+}
+ul.faq_sections_links li{
+    display: list-item;
+    margin: 3px 0;
+    float: none;
+    z-index: 4;
+    position: relative;
+}
+ul.faq_sections_links li a{
+    font-size: 12px;
+    font-weight: normal;
+    background: url(http://www.midfirstbank.com/Images/Global/sign_in_sub_li.gif) no-repeat 0 5px;
+    padding-left: 8px;
+}
+
+ul.faq_sections_text{
+	display: block;
+	width: 180px;
+	margin: 0 0 0 26px;
+	float: left;	
+}
+ul.faq_sections_text li{
+	margin: 3px 0;
+	float: none;
+}
+ul.faq_sections_text li span{
+    font-size: 12px;
+    font-weight: normal;
+    background: url(http://www.midfirstbank.com/Images/Global/sign_in_sub_li.gif) no-repeat 0 5px;    
+    padding-left: 8px;
+}
+/* END FAQ STYLES */
+.unNormalize a.contact_agent{
+    display: block;
+    height: 18px;
+    padding: 7px 8px 2px 8px;
+    color: #fff;
+    border:1px solid #ff6600;
+    font-size:11px;
+    text-decoration: none;
+    position: absolute;
+    right: 50px;
+    text-align: right;
+    background: url(http://www.midfirstbank.com/Images/Global/bg_search_submit.gif) repeat-x scroll 0 0 #f79122;
+}
+/* START TOM STYLES */
+sup.above
+{	
+	vertical-align: text-top;	
+	margin-top:0px;
+	font-size:10px;
+	 font-size:smaller;
+}
+ul.modal
+{
+	list-style-type:circle;
+	margin-top:15px;
+	margin-left:15px;
+}
+div.logo_bottom_center
+{
+  text-align:center;	
+  vertical-align:bottom;	
+	
+}
+span.go_pink
+{
+   color: #e57eb0;
+}
+a.space_left
+{
+	margin-left:30px;
+}
+/* END TOM STYLES */
+
+div.page_details p A {	color: #f60}
+div.page_details p A:visited {	color: #f60}
+div.page_details p A:hover {	color: #f78f1e}
+
+p.bold_small_text
+{
+	font-weight:bold;
+	font-size:10px;
+	 margin-top:10px !important;
+}
+
+p.bold_small_text A {	color: #f60}
+p.bold_small_text A:visited {	color: #f60}
+p.bold_small_text A:hover {	color: #f78f1e}

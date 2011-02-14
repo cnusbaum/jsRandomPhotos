@@ -1,0 +1,460 @@
+﻿.ui-helper-hidden{display:none}
+.ui-helper-hidden-accessible{position:absolute; left:-99999999px}
+.ui-helper-reset{margin:0; padding:0; border:0; outline:0; line-height:1.3; text-decoration:none; font-size:100%; list-style:none}
+.ui-helper-clearfix:after{content:"."; display:block; height:0; clear:both; visibility:hidden}
+.ui-helper-clearfix{display:inline-block}
+* html .ui-helper-clearfix{height:1%}
+.ui-helper-clearfix{display:block}
+.ui-helper-zfix{width:100%; height:100%; top:0; left:0; position:absolute; opacity:0; filter:Alpha(Opacity=0)}
+.ui-state-disabled{cursor:default !important}
+.ui-icon{display:block; text-indent:-99999px; overflow:hidden; background-repeat:no-repeat}
+.ui-widget-overlay{position:absolute; top:0; left:0; width:100%; height:100%}
+.ui-widget{font-family:"Lucina Grande","Arial",sans-serif; font-size:1.1em}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button{font-family:"Lucina Grande","Arial",sans-serif}
+.ui-widget-content{border:1px solid #aaa; background:transparent url(http://www.midfirstbank.com/images/Global/bg_location_dropdown.png) repeat; color:#fff}
+.ui-widget-content a{color:#f60} 
+ .ui-widget-header{border-top:1px solid #f60;  border-left:1px solid #87878a;  border-right:1px solid #87878a;  border-bottom:1px solid #87878a; background:#87878a; color:#fff; font-weight:bold}
+ .ui-widget-header a{color:#f60}
+.ui-state-default, .ui-widget-content .ui-state-default{border:1px solid #d3d3d3; background:#e6e6e6; font-weight:normal; color:#555; outline:none}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited{color:#555; text-decoration:none; outline:none}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus{  border:1px solid #f60;  background:#C0C0C0;  font-weight:normal;  color:#f60;  outline:none}
+.ui-state-hover a, .ui-state-hover a:hover{color:#F78F1E; text-decoration:none; outline:none}
+.ui-state-active, .ui-widget-content .ui-state-active{border:1px solid #aaa; background:#fff; font-weight:normal; color:#F78F1E; outline:none}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited{color:#F78F1E; outline:none; text-decoration:none}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight{border:1px solid #fcefa1; background:#fbf9ee; color:#363636}
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a{color:#F78F1E}
+.ui-state-error, .ui-widget-content .ui-state-error{border:1px solid #cd0a0a; background:#fef1ec; color:#cd0a0a}
+.ui-state-error a, .ui-widget-content .ui-state-error a{color:#cd0a0a}
+.ui-state-error-text, .ui-widget-content .ui-state-error-text{color:#cd0a0a}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled{opacity:.35; filter:Alpha(Opacity=35); background-image:none}
+.ui-priority-primary, .ui-widget-content .ui-priority-primary{font-weight:bold}
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary{opacity:.7; filter:Alpha(Opacity=70); font-weight:normal}
+.ui-icon-close{background-position:-80px -128px}
+.ui-icon-closethick{background-position:-96px -128px}
+.ModalPopup .ui-icon-closethick{background-position:-96px -128px}
+.ui-icon{width:16px; height:16px; background-image:url(http://www.midfirstbank.com/images/jqueryui/ui-icons_222222_256x240.png)}
+.ui-widget-content .ui-icon{background-image:url(http://www.midfirstbank.com/images/jqueryui/ui-icons_222222_256x240.png)}
+.ModalPopup .ui-widget-header .ui-icon{background-image:url(http://www.midfirstbank.com/images/jqueryui/ui-icons_ffffff_256x240.png);  cursor:pointer}
+.ui-widget-header .ui-icon{background-image:url(http://www.midfirstbank.com/images/jqueryui/ui-icons_ffffff_256x240.png);  cursor:pointer}
+.ui-state-default .ui-icon{background-image:url(http://www.midfirstbank.com/images/jqueryui/ui-icons_888888_256x240.png)}
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon{background-image:url(http://www.midfirstbank.com/images/jqueryui/ui-icons_ffffff_256x240.png)}
+.ui-state-active .ui-icon{background-image:url(http://www.midfirstbank.com/images/jqueryui/ui-icons_454545_256x240.png)}
+.ui-state-highlight .ui-icon{}
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon{}
+.ui-widget-overlay{background:#ccc; opacity:.80; filter:Alpha(Opacity=80)}
+.ui-widget-shadow{margin:-8px 0 0 -8px; padding:8px; background:#aaa; opacity:.70; filter:Alpha(Opacity=70); -moz-border-radius:8px; -webkit-border-radius:8px}
+.ui-dialog{position:relative; padding:.2em; width:300px}
+.ui-dialog .ui-dialog-titlebar{padding:.5em .3em .3em 1em; position:relative}
+.ui-dialog .ui-dialog-title{float:left; margin:.1em 0 .2em}
+.ui-dialog .ui-dialog-titlebar-close{position:absolute; right:.3em; top:50%; width:19px; margin:-10px 0 0 0; padding:1px; height:18px}
+.ui-dialog .ui-dialog-titlebar-close span{display:block; margin:1px}
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus{padding:0}
+.ui-dialog .ui-dialog-content{border:0; padding:.5em 1em; background:none; overflow:auto; zoom:1}
+.ui-dialog .ui-dialog-buttonpane{text-align:left; border-width:1px 0 0 0; background-image:none; margin:.5em 0 0 0; padding:.3em 1em .5em .4em}
+.ui-dialog .ui-dialog-buttonpane button{float:right; margin:.5em .4em .5em 0; cursor:pointer; padding:.2em .6em .3em .6em; line-height:1.4em; width:auto; overflow:visible}
+.ui-dialog .ui-resizable-se{width:14px; height:14px; right:3px; bottom:3px}
+.ui-draggable .ui-dialog-titlebar{cursor:move}
+.exitPageContent A{ COLOR:#8f8e8b}
+.exitPageContent A:hover{ COLOR:#f60}
+.ErrorRequired{color:#fff !important}
+.PopupWindowErrorRequired{color:#000 !important}
+.Watermark{ font:12px "Lucina Grande","Arial",sans-serif}
+#sign_in_form ul{margin:0; padding:0}
+#sign_in_form ul li{margin:0; padding-top:1px; list-style-type:none; display:inline-block}
+.callout_details #sign_in_standalone ul li{ margin:0;  list-style-type:none;  display:inline-block} 
+input.signin{ display:block;  width:156px;  height:16px;  border:1px solid #7c7c7c;  position:relative;  float:right}
+#ctl00_pnlSetLocation_ctlSetLocation_pnlSaveLocation ul{margin:0; padding:0; margin-left:65px; padding-top:5px}
+#ctl00_pnlSetLocation_ctlSetLocation_pnlSaveLocation ul li{margin:0; padding-top:1px; list-style-type:none}
+#ctl00_pnlSetLocation_ctlSetLocation_btnSaveLocation{ margin-left:35px !important;  margin-top:10px !important;  margin-bottom:10px !important}
+#ctl00_pnlSetLocation_ctlSetLocation_txtZipCode{ display:block;  width:156px;  height:16px;  border:1px solid #7c7c7c;  position:relative;   font:12px "Lucina Grande","Arial",sans-serif}
+.setlocation_panel{       width:200px}
+#ctl00_mainPageContent_pnlSaveLocation ul{margin:0; padding:0; margin-left:30px; padding-top:20px}
+#ctl00_mainPageContent_pnlSaveLocation ul li{margin:0; padding-top:1px; list-style-type:none}
+#ctl00_mainPageContent_btnSaveLocation{      margin-left:65px !important;       margin-top:10px !important;       margin-bottom:10px !important}
+#ctl00_mainPageContent_txtZipCode{      display:block;       width:156px;       height:16px;       border:1px solid #7c7c7c;       position:relative;           font:12px "Lucina Grande","Arial",sans-serif}
+label.setlocation_copy{      display:block;       wid:85px;       height:16px;       padding:2px 0;         font-weight:bold}
+#ctl00_ExternalHostLogin1_pnlExternalLogin{ margin-bottom:15px !important}
+.num_locations_filter{      margin-right:5px}
+#divSearchError ul{margin:0; padding:0; margin-left:30px; padding-top:20px}
+#divSearchError ul li{margin:0; padding-top:1px; list-style-type:none}
+.ok_error{      margin-left:75px !important;       margin-top:10px !important;       margin-bottom:10px !important}
+#location_search_results_container{       height:315px;        overflow-y:auto;        width:690px;        display:none}
+.Progress{  display:none;       background-color:#fff;         text-align:center;          BACKGROUND:url(http://www.midfirstbank.com/Images/Global/bg_callout_body.jpg) repeat-y;  COLOR:#696a6c}
+.WhiteBGProgress{ display:none;   background-color:#fff;   text-align:center;   COLOR:#696a6c;  margin-bottom:30px}
+.ProgressImage{ width:64px;  height:64px;  text-align:center}
+div.SpaceHolder{ background-color:Transparent;  height:300px}
+.filters{ margin-right:5px} 
+.singleColumnForm ul{margin:0; padding:0}
+.singleColumnForm ul li{margin:0; padding-top:2px;  list-style-type:none}
+.leftColumnForm{float:left; width:200px; padding:10px; margin-bottom:10px; margin-left:20px}
+.leftColumnForm ul{margin:0; padding:0}
+.leftColumnForm ul li{margin:0; padding-top:6px; display:inline-block;  list-style-type:none}
+.middleColumnForm{ float:left; width:100px; padding:10px; margin-bottom:10px}
+.middleColumnForm ul{margin:0; padding:0}
+.middleColumnForm ul li{margin:0; padding-top:6px; list-style-type:none}
+.rightColumnForm{float:left; width:200px; padding:10px; margin-bottom:10px}
+.rightColumnForm ul{margin:0; padding:0}
+.rightColumnForm ul li{margin:0; padding-top:6px; list-style-type:none}
+.leftColumnForm ul li label{width:200px; display:block}
+.middleColumnForm ul li label{width:150px; display:block}
+.rightColumnForm ul li label{width:200px; display:block}
+.bottomRowForm ul li label{width:200px; display:block}
+.bottomRowForm{text-align:center; width:500px; margin-left:30px}
+.bottomRowForm ul{margin:0; padding:0; text-align:left !important}
+.bottomRowForm ul li{margin:0; padding-top:16px; list-style-type:none; text-align:left !important}
+.centerRowForm{text-align:center; width:500px; margin-left:30px; position:relative}
+.centerRowForm ul{margin:0; padding:0; text-align:left !important}
+.centerRowForm ul li{margin:0; padding-top:16px; list-style-type:none; text-align:left !important}
+.formRowsubmit{text-align:center; width:100%; position:relative}
+.formRowsubmit ul{margin:0; padding:0}
+.formRowsubmit ul li{margin:0; padding-top:16px; list-style-type:none} 
+.nowrap { white-space:nowrap !important;}
+.ContactFormTable
+{
+	margin: 0px 0px 5px 20px;
+	padding: 20px;
+}
+.ContactFormTable td{padding: 5px;}
+.ContactFormTableInner td
+{
+	padding: 6px;	
+}
+div.information_wrapper{      display:block;       width:153px;       padding:6px 0;       margin:19px 0 0 16px;       float:left}
+div.information_wrapper_head{      background:transparent url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_header.gif) no-repeat scroll 0 0;       display:block;       font-size:1px;       height:9px;       margin:0 auto;       width:177px}
+div.information_wrapper_footer{      background:transparent url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_footer.gif) no-repeat scroll 0 0;       display:block;       font-size:1px;       height:9px;       margin:0 auto;       width:177px}
+ul.information_wrapper{      display:block;       width:153px;       padding:6px 12px;       background:url(http://www.midfirstbank.com/Images/Global/bg_map_sub_callout_body.gif) repeat-y;       color:#696A6C}
+li.information_wrapper_details{      display:inline-block;       margin:2px 0}
+h4.information_wrapper_title{      display:inline-block;       margin:2px 0 6px}
+.centered_form{        text-align:center !important;        padding-top:15px;        width:100%}
+.generic_form{float:left; width:400px; padding:5px; margin-bottom:10px; margin-left:20px;  text-align:left !important}
+.generic_form ul{margin:0; padding:0}
+.generic_form ul li{margin:0; padding-top:3px;  list-style-type:none}
+.generic_form ul li p{margin-left:0px !important}
+.generic_form ul li label{width:400px; display:block} 
+input.submit_opt_out{      background-position:#f78f1e url(http://www.midfirstbank.com/Images/Global/bg_search_submit.gif) repeat-x;       display:block;       width:50px;       height:20px;       padding:1px 0 3px;       margin:0 0 0 100px;       background:#f78f1e url(/Images/Global/bg_search_submit.gif) repeat-x;       text-align:center;       border:1px solid #f78f1e;       color:#fff;       -moz-border-radius:5px;       -webkit-border-radius:5px;       border-radius:5px;       float:left;       text-transform:uppercase;       font-size:11px}
+input.submit_sign_up{      background-position:#f60 url(http://www.midfirstbank.com/Images/Global/bg_search_submit.gif) repeat-x;       display:block;       width:50px;       height:20px;       padding:1px 0 3px;       margin:0 0 0 120px;       background:#f78f1e url(/Images/Global/bg_search_submit.gif) repeat-x;       text-align:center;       border:1px solid #f78f1e;       color:#fff;       -moz-border-radius:5px;       -webkit-border-radius:5px;       border-radius:5px;       float:left;       text-transform:uppercase;       font-size:11px}
+ul.content_list{      display:block;       position:relative;       color:#696a6c left:15px;       padding-top:7px;       margin:3px 0 8px;       border-top:1px solid #e4e4e3;       border-bottom:1px solid #e4e4e3;       list-style-image:url(/Images/Global/sign_in_sub_li.gif);  padding-bottom:7px}
+li.content_list_detail{ margin-left:15px;  COLOR:#696a6c}
+p.account_terms_details strong{ COLOR:#000}
+p.list_header strong{ COLOR:#000}
+p.content{  padding-bottom:5px !important;  padding-top:5px !important;   margin-bottom:0px !important}
+span.required{ color:#f60}
+#ctl00_pnlSearchLocations{ margin-left:10px}
+input.search_content{ width:60px;  height:20px;  padding:2px 0 3px}
+.PageSelected{ text-decoration:underline !important} 
+div#content_main div.account_terms_details p.spread{ margin:15px 0} 
+p.spread strong{ color:#000} 
+div.more_info_details p.smallheader{ text-align:center;  margin:5px 0}
+table.hours_view{ width:90%;  margin:0 5%}
+table.hours_view td{ text-align:left}
+table.hours_view td+td{ padding:0 5px;  text-align:right;  white-space:nowrap}
+table.hours_view td+td+td{ width:1px}
+table.hours_view td+td+td+td{ padding:0 0 0 5px;  text-align:right;  white-space:nowrap;  width:auto}
+.formrequiredfield{color:#f60}
+ul.generic_list{ display:block; position:relative;color:#696a6c left:15px;padding-top:7px;margin:3px 0 8px; list-style-type:disc;  padding-bottom:7px}
+ul.generic_list li{ margin-left:25px;  COLOR:#696a6c;}
+p.account_terms_details strong {COLOR:#696a6c}
+input.formbutton{
+	display: block;
+	width: 50px;
+	height: 20px;
+	padding: 1px 0 3px;	
+	background: #f78f1e url(/Images/Global/bg_search_submit.gif) repeat-x;
+	text-align: center;
+	border: 1px solid #f78f1e;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.rgMasterTable
+{
+	font-family:"Lucina Grande","Arial",sans-serif !important;
+}
+
+.centerAlign
+{
+ text-align:center;
+}
+.Grid
+{
+	MARGIN-LEFT: 15px; 
+	FONT: 12px "Lucina Grande", "Arial", sans-serif;
+}
+.GridHeader th
+{
+	color: #696a6c; 	
+ 	 font-weight:bold; 
+ 	  padding-top: 6px !important;
+	 padding-bottom: 6px !important;
+}
+.GridHeaderDescription
+{
+ padding-left:10px;		 
+}
+.GridCellNoPadding
+{
+	color: #696a6c; 		 
+}
+.GridCellCurrency
+{
+	padding-right:50px !important; 		  
+}
+.GridCellIntRate
+{
+	padding-right:50px !important; 		  
+}
+.GridCellCDIntRate4Col
+{
+	padding-right:80px !important; 		  
+}
+.GridCellCDIntRate
+{
+	padding-right:40px !important; 		  
+}
+.GridCellCDApy
+{
+	padding-right:25px !important; 		  
+}
+.GridCellCDApy4Col
+{
+	padding-right:55px !important; 		  
+}
+.GridCellIRAApy
+{
+	padding-right:60px !important; 		  
+}
+.GridCellCallableCDApy
+{
+	padding-right:60px !important; 		  
+}
+.GridCellCheckingIntRate
+{
+	padding-right:90px !important; 		  
+}
+.GridCellCheckingApy
+{
+	padding-right:65px !important; 		  
+}
+.GridCellSavingsIntRate
+{
+	padding-right:90px !important; 		  
+}
+.GridCellSavingsApy
+{
+	padding-right:65px !important; 		  
+}
+.GridCellOpenAccount
+{
+	padding-right:35px !important; 		  
+}
+.GridCellOpenAccountDefault
+{
+	padding-right:50px !important; 		  
+}
+.GridCellOpenAccountNoPadding
+{
+	padding-right:5px !important; 		
+	 width:150px;  
+}
+.GridCellOpenAccountNoPadding a
+{
+	color:#f60;
+}
+.GridCellOpenAccount a
+{
+	color:#f60;
+}
+.GridCellOpenAccountDefault a:hover
+{
+	color:#f78f1e;
+}
+.GridCellOpenAccountDefault a
+{
+	color:#f60;
+}
+.GridCellOpenAccountDefault a:hover
+{
+	color:#f78f1e;
+}
+
+.GridCell td
+{
+	color: #696a6c; 	
+	 padding-left:20px; 
+	 padding-top: 6px !important;
+	 padding-bottom: 6px !important;
+	  background-color:#dddddc; 	 
+}
+.GridCellAlt td
+{
+	color: #696a6c;	
+	  padding-left:20px; 
+	 padding-top: 6px !important;
+	 padding-bottom: 6px !important; 
+}
+
+div.callout_small{
+	display: block;
+	width: 316px;		
+}
+h3.callout_title_small{
+	display: block;
+	width: 306px;
+	height: 15px;
+	padding: 7px 0 7px 10px;
+	margin: 0 0 10px 0;
+	background: #747477;
+	border-top: 1px solid #ee7c22;
+	color: #fff;
+	position: relative;
+}
+div.callout_details_head_small{
+	display: block;
+	width: 316px;
+	height: 6px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_header.gif) no-repeat;
+	font-size: 1px;
+}
+div.callout_details_small{
+	display: block;
+	width: 316px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_body.gif) repeat-y;
+	color: #696A6C;	
+}
+div.callout_details_small p {
+	 margin-left:10px !important;
+	  margin-top:10px !important;
+	  margin-bottom:5px !important;	  
+	 width: 316px !important;
+}
+div.callout_details_footer_small{
+	display: block;
+	width: 316px;
+	height: 10px;
+	background: url(http://www.midfirstbank.com/Images/Global/bg_cards_module_footer.gif) no-repeat;
+}
+#divJobInDemandDescription
+{
+	margin-bottom:10px;
+}
+#lnkJobInDemandSearch
+{
+	color:#f79122;	
+}
+#lnkJobInDemandSearch:hover
+{
+color:#f60;
+}
+.JobsInDemandSpacing
+{
+	 margin-top:5px !important;
+	 margin-bottom:3px !important;
+	   margin-left:15px !important;
+	   
+}
+.ContactFormTableInnerSmall td
+{
+	padding: 1px;	
+}
+/*This style lives here and in interior css, this was copied over to ensure that the home page 
+picked up necessary styles*/
+.unNormalize div.account_type_tools a.button_tools{
+	display: block;
+	width: 136px;
+	height: 16px;
+	padding: 4px 0 3px;
+	margin: 8px 0 0 8px;
+	background: #f79122 url(http://www.midfirstbank.com/Images/Global/bg_search_submit.gif) repeat-x;
+	text-align: center;
+	border: 1px solid #f78f1e;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	text-decoration: none;
+}
+ .ui-widget select{font-size: 12px !important;}
+ div.rfdSelectBox { z-index:1999 !important;}
+
+ h2.section_title {	FONT-WEIGHT: bold;	FONT-SIZE: 18px;MARGIN-BOTTOM: 5px;	COLOR: #f60}
+  h3.section_title {	FONT-WEIGHT: bold;	FONT-SIZE: 16px;MARGIN-BOTTOM: 5px;	COLOR: #f60}
+ h3.section_title_gray {	FONT-WEIGHT: bold;	FONT-SIZE: 14px;MARGIN-BOTTOM: 5px;	COLOR: #f60}
+
+ div.content
+ {
+	color: #696a6c;	
+ }
+
+ #open_new_account_message table td
+ {
+	 padding:2px;
+ }
+
+ div.product_box_full_width
+ {
+  width:645px !important;
+   margin-bottom:20px;
+ }
+ div.inline_stack
+ {
+	display: inline !important;	
+ }
+ div.inline_stack div
+ {
+	padding-left: 10px; display: inline !important;
+ }
+ h2.product_in_box_header
+ {
+	font-size: 18px !important;
+	font-weight: bold !important;	
+	margin-top: 15px !important; 
+	color: #696a6c !important; 
+	margin-bottom: 5px !important;
+ }
+ div.product_in_box_container
+ {
+	text-align: center; margin-top: 5px;margin-bottom:15px;
+ }
+
+ div.orange_border_ad
+ {
+  border:solid 1px #f60; height:300; width:627px; padding:20px;
+ }
+  div.orange_border_ad p
+  {
+	margin-left:5px !important;
+	margin-right:20px;
+    width:620px !important;
+  }
+  .loc_search_results
+  {
+	  width: 600px !important; 
+	  border: 1px solid #dddddc;
+  }
+.loc_search_results_alt
+{
+	width: 600px !important; 
+	border: 1px solid #f5f5f3;
+ }
+ .inline-list li
+ {
+	display: inline !important;
+ }
+ol.generic_list{ display:block; position:relative;color:#696a6c left:15px;padding-top:7px;margin:3px 0 8px; list-style-type:disc;  padding-bottom:7px}
+ol.generic_list li{ margin-left:25px;  COLOR:#696a6c;}
+.outerbox {	
+	padding: 2px;
+	border: 1px solid #d4d4d2;
+	background: #f3f3f1;
+}
+.innerbox
+{
+	padding: 10px 8px 10px 8px;
+	background: #f8f8f6;
+	border: 1px solid #dededc;
+	overflow: hidden;
+}

@@ -1,0 +1,28 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{ margin:0;  padding:0;  border:0;  outline:0;  font-size:100%;  vertical-align:baseline;  background:transparent}
+body{ line-height:1}
+ol, ul{ list-style:none}
+blockquote, q{ quotes:none}
+blockquote:before, blockquote:after, q:before, q:after{ content:'';  content:none}
+:focus{ outline:0}
+ins{ text-decoration:none}
+del{ text-decoration:line-through}
+table{ border-collapse:collapse;  border-spacing:0} 
+.clearfix:after{ content:".";  display:block;  height:0;  clear:both;  visibility:hidden}
+.clearfix{display:inline-block}
+* html .clearfix{height:1%}
+.clearfix{display:block}
+.clearer{ clear:both}
+a{ color:#8f8e8b}
+a:hover{ color:#f60}
+.unNormalize{ color:#565759}
+.unNormalize ul{ list-style:disc;  margin:5px 0 5px 30px;  color:#565759;  float:none}
+.unNormalize ol{list-style:decimal; margin:5px 0 5px 30px; color:#565759}
+.unNormalize h1{ font-size:xx-large;  padding:0 0 10px 0}
+.unNormalize h2{font-size:x-large; padding:0 0 10px 0}
+.unNormalize h3{padding:0 0 10px 0}
+.unNormalize h4{font-size:medium; padding:0 0 10px 0}
+.unNormalize h5{font-size:larger; padding:0 0 10px 0}
+.unNormalize p{ color:#565759;  margin:5px 0}
+.unNormalize a{ color:#f60}
+.unNormalize a:visited{ color:#f60}
+.unNormalize a:hover{ color:#F78F1E}

@@ -1,0 +1,96 @@
+div#carousel{
+	display: block;
+	width: 711px;
+	height: 207px;
+	margin: 0;
+	padding: 0;
+}
+div#nav_carousel_wrap{
+	display: block;
+	width: 711px;
+	height: 30px;
+	background: url(/Images/Global/bg_nav_carousel.png) repeat-x;
+	position: absolute;
+	top: 207px;
+	left: 0px;
+}
+ul#nav_carousel{
+	position: absolute;
+	right: 60px;
+}
+ul#nav_carousel li{
+	float: left;
+}
+ul#nav_carousel li {
+	display: block;
+	width: 19px;
+	height: 19px;
+	margin: 0 5px -8px 5px;
+	background: #665743;
+	border: 1px solid #8b663b;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	position: relative;
+	top: 4px;
+	cursor: pointer;
+}
+ul#nav_carousel li a{
+	display: block;
+	width: 19px;
+	height: 16px;
+	padding: 3px 0 0;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	position: relative;
+	color: #a56219;
+}
+ul#nav_carousel li a:hover, ul#nav_carousel li.active a{
+	display: block;
+	width: 19px;
+	height: 16px;
+	background: #ff6600 url(/Images/Global/bg_carousel_link_hover.gif) repeat-x;
+	color: white;
+	margin: 0;
+}
+a.hero_next{
+	display: block;
+	width: 19px;
+	height: 19px;
+	background: url(/Images/Global/icon_carousel_link_next.gif) no-repeat center 0;
+	position: absolute;
+	top: 215px;
+	left: 683px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+a.play_toggle{
+	display: block;
+	width: 19px;
+	height: 19px;
+	background: url(/Images/Global/icon_carousel_play.gif) no-repeat center 0;
+	position: absolute;
+	top: 215px;
+	left: 663px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+a.pause_toggle{
+	display: block;
+	width: 19px;
+	height: 19px;
+	background: url(/Images/Global/icon_carousel_pause.gif) no-repeat center 0;
+	position: absolute;
+	top: 215px;
+	left: 663px;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+a.carousel_link{
+	display: block;
+	width: 711px;
+	height: 207px;
+	position: absolute;
+}

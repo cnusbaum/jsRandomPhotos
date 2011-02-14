@@ -1,0 +1,26 @@
+html{font:11pt "Verdana", "Arial", sans-serif;}
+a, a:link:after, a:visited:after{color:#f60;content: " (" attr(href) ") ";font-size: 90%;}
+div#header,div#content_sub,ul.nav_breadcrumb,ul.nav_main,div.map_sub,div#footer,ul.signoff,div.account_type_tools,div.show_hide,div.show_hide_wrapper,div.subcat_toggle,div.news_nav,div.search_pagination,div.search_again_module,a.cached,a.similar,a.toggle_show_hide{display:none;}
+ul.location_info li,ul.callout_hours li,ul.branch_services li,ul.events{list-style-type:none;margin:5px 0;}
+div.callout,li.callout_hours_details ul{display:block;margin:0 0 20px;}
+ul.location_details{display:block;margin:0 0 40px;}
+li.location_streets{font-weight:bold;}
+div#signatureCallout,div#performanceCallout,div#performancePlusCallout,div#performance50Callout,div#freeCheckingCallout{display:block;visibility:visible;}
+div#menu3{display:block;height:40px;margin-top:12px;}
+#menu3 img{padding:0px 4px;}
+div.card_landing_body{display:block;margin:35px 0;}
+ul.cards_options li{list-style-type:none;float:left;margin:0 20px;}
+ul.cards_options li h4 a{text-decoration:none;}
+table.comparison_details{color:#f60;display:block;margin:0;width:669px;}
+table.comparison_details td{border-bottom:1px solid #696A6C;font-size:10px;padding:7px;text-align:center;}
+table.comparison_details td.comparison_criteria_head{background:#DFDFDF none repeat scroll 0 0;color:#696A6C;font-weight:bold;padding:5px 14px 5px 0;text-align:right;}
+ul.contact_modules_detail_sub li, li.contact_modules_shadow, ul.contact_info li, ul.faq_sections,ul.faq_sections_links,div.news_wrap ul{list-style-type: none;}
+ul.contact_info li{display: block; margin:20px 0;}
+ul.contact_details li{display: block; margin: 5px 0;}
+li.contact_name{font-size: 16px; font-weight: bold;}
+div.faq_wrapper a{text-decoration: none;}
+ul#modules{display: block;}
+a.news_detail{display:block;padding-bottom:50px;}
+div.news_body ul,div.news_body ol{list-style-type: disc;margin:20px 0;}
+img.profile_picture{float:none;}
+div.results_output{margin: 30px 0;}
