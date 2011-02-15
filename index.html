@@ -591,17 +591,17 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ctl00$pnl
 			//This is the max amount of images in the directory.
 			endNum = 025;
 			
-			
-			//Insert stuff into the list items
-			$('#imgList li').text('<img src="' + imgNum + '" alt="" />');
 		})(); //End ghost function
 	
-		function changeImage(imgNum endNum) { 
+		function changeImage(imgNum endNum imgLocation) { 
 			for ( i = 0; i < 4 ; i++ ) { 
-				Math.floor(Math.random() * endNum + 1);
+				imgNum = Math.floor(Math.random() * endNum + 1);
+				
+				//Insert stuff into the list items
+				$('#imgList').text('<li><img src="' + imgLocation + imgNum + '" alt="" /></li>');
+				
 				console.log(endNum);
-				return;
-				}
+				}  // End for loop
 
 		}; //end changeImg function
 	
@@ -612,10 +612,6 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$ctl00$pnl
 
 	<div id="featureImageHolder">
 		<ul id="imgList">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
 		</ul>
 	</div>
 	
