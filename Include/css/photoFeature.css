@@ -3,4 +3,14 @@
 	border: 1px solid #666;
 	height: 209px;
 	display: block;
+	}   
+	            
+#featureImageHolder ul { 
+	padding: 0px; 
+	margin: 0px;
+	list-style-type: none;
+	}
+
+#featureImageHolder ul li { 
+	float: left;
 	}
