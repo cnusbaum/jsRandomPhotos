@@ -22,38 +22,30 @@
 		
 		$(document).ready(function(){
 
-			//Ghost function - keeps the variables local !DO THIS OFTEN!!!!!!!
-			//(function() {			
-			//Set Timer and execute display
 			setInterval("displayImages()" , 5000);
-
-			//})(); //End ghost function
 
 		}); //end doc ready
 
-		//initial Display
 		function displayImages() {
 			var imgLocation = '/Images/photoFeature/',
-			currentSet = new Array(4),
-			totalImages = 6;
-			
-			//empty the current list
-			//$('#imgList').fadeOut('slow');
-			$('#imgList').empty();
+			currentSet = new Array(0,1,2,3),
+			totalImages = 6,
+			out=[],
+			obj={};
 
-			for ( var i = 0; i < currentSet.length ; i++ ) {
+			//empty the markup of the list
+			$('#imgList').empty();
+			
+			//repopulate the array
+			for ( var i = 0; i < 5 ; i++ ) {
+				
 				var imgNum = Math.floor(Math.random() * totalImages);
+
 
 				currentSet[i] = imgNum;
 
-				if (currentSet.indexOf(currentSet[i],0)  == -1 ) { 
-						//currentSet.splice(currentSet.indexOf(currentSet[i],3));
-						console.log('Nothing');
-					} else {
-						currentSet[i] = imgNum;
-					} 
-				}  // End for loop
-			
+				$('#imgList').append('<li><img src="' + imgLocation + currentSet[1] + '.jpg" alt="" /></li>');
+			}  // End for loop
 			
 			$('#imgList').append('<li><img src="' + imgLocation + currentSet[0] + '.jpg" alt="" /></li>').fadeIn('slow');
 			$('#imgList').append('<li><img src="' + imgLocation + currentSet[1] + '.jpg" alt="" /></li>');
@@ -61,7 +53,7 @@
 			$('#imgList').append('<li><img src="' + imgLocation + currentSet[3] + '.jpg" alt="" /></li>');
 			
 			
-			console.log(currentSet);
+			//console.log(currentSet);
 		};//end displayImages
 
 	</script>
@@ -71,6 +63,10 @@
 	         
 	<div id="featureImageHolder">
 		  <ul id="imgList">
+			<li><img src="/Images/photoFeature/0.jpg" alt="" /></li>
+			<li><img src="/Images/photoFeature/1.jpg" alt="" /></li>
+			<li><img src="/Images/photoFeature/2.jpg" alt="" /></li>
+			<li><img src="/Images/photoFeature/3.jpg" alt="" /></li>
 		  </ul>
 	</div>
 	
